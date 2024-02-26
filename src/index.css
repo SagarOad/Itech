@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'nexa';
+    src: url('./Fonts/Nexa.ttf');
+}
+
+@font-face {
+    font-family: 'nexa-light';
+    src: url('./Fonts/Nexa-light.ttf');
+}
+
+.indicator{
+    transition: left .4s;
+  }
+
+.avatars-wrapper {
+    display: none !important;
+  }
+  
