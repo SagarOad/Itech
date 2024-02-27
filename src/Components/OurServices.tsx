@@ -1,6 +1,4 @@
-import { NavLink } from "react-router-dom";
 import shineSvt from "../assets/header-illustration.svg";
-import services from "../assets/vectors/services.jpg";
 import wave from "../assets/vectors/wave.png";
 
 const OurServices = () => {

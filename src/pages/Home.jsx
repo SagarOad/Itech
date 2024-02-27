@@ -55,9 +55,9 @@ document.head.appendChild(colonicalTag)
       {/* <Features /> */}
       <OurServices />
       <SkillTabs />
+      <ProjectTabs />
       <Branding />
       <Anime />
-      <ProjectTabs />
       <ContactSection />
       <Pricing />
       {/* <Map /> */}

@@ -89,6 +89,107 @@ const Branding = () => {
           </div>
         </div>
       </div>
+
+<div className="grid grid-cols-12">
+        <div className="xl:col-span-3 mb-12 xl:mb-0 flex flex-col justify-center items-center col-span-12 p-4 bg-white rounded-[26px] mr-6">
+          {/* <img src={services} className="rounded-[26px]" /> */}
+
+          <p className="leading-normal text-[#212121] opacity-75 font-sans font-medium text-[20px] md:text-[22px] mb-8 text-center">
+            boost your online presence and make the most of the digital world!
+          </p>
+        </div>
+
+        <div className="xl:col-span-9 col-span-12">
+          <div className="grid grid-cols-12 gap-4  md:gap-6 2xl:mt-7.5 2xl:gap-7.5">
+            <div className="opacity-100 group p-12 px-5 py-7 pb-5 shadow-md z-50 bg-white hover:shadow-lg hover:mt-[-12px] transition-all hover:bg-[#f58020]   sm:px-7.5 xl:col-span-4 col-span-12 rounded-[26px]">
+                <div className="flex">
+                  <div className="">
+                    <h1 className="text-[#f58020] group-hover:text-white service-card- text-[24px] font-[nexa] mb-4">
+                      Mobile Application
+                    </h1>
+                    <p className="text-[#212121] group-hover:text-white font-[Poppins]">
+                      Seamlessly connect with your audience through our
+                      cutting-edge mobile app solutions
+                    </p>
+                  </div>
+                </div>
+            </div>
+
+            <div className="opacity-100 p-12 group px-5 py-7 pb-5 shadow-md z-50 bg-white group-hover:text-white hover:shadow-lg hover:mt-[-12px] transition-all hover:bg-[#f58020]  hover: sm:px-7.5 xl:col-span-4 col-span-12 rounded-[26px]">
+                <div className="flex">
+                  <div className="">
+                    <h1 className="text-[#f58020] group-hover:text-white service-card- text-[24px] font-[nexa] mb-4 ">
+                      Website Development
+                    </h1>
+                    <p className="text-[#212121] group-hover:text-white font-[Poppins]">
+                      The best Website Development solutions for your business
+                      to prosper and reach the global market.{" "}
+                    </p>
+                  </div>
+                </div>
+            </div>
+
+            <div className="opacity-100 p-12 group px-5 py-7 pb-5 shadow-md z-50 bg-white hover:shadow-lg hover:mt-[-12px] transition-all hover:bg-[#f58020]  hover: sm:px-7.5 xl:col-span-4 col-span-12 rounded-[20px]">
+                <div className="flex">
+                  <div className="">
+                    <h1 className="text-[#f58020] group-hover:text-white service-card- text-[24px] font-[nexa] mb-4">
+                      Social Media Marketing
+                    </h1>
+                    <p className="text-[#212121] group-hover:text-white font-[Poppins]">
+                      Best social media marketing solutions to take your brand
+                      to the next level
+                    </p>
+                  </div>
+                </div>
+            </div>
+
+            <div className="opacity-100 p-12 group px-5 py-7 pb-5 shadow-md z-50 bg-white hover:shadow-lg hover:mt-[-12px] transition-all hover:bg-[#f58020]  hover: sm:px-7.5 xl:col-span-4 col-span-12 rounded-[26px]">
+                <div className="flex">
+                  <div className="">
+                    <h1 className="text-[#f58020] group-hover:text-white service-card- text-[24px] font-[nexa] mb-4">
+                      2D / 3D Animation
+                    </h1>
+                    <p className="text-[#212121] group-hover:text-white font-[Poppins]">
+                      Bring your imagination to life with our exceptional 2D /
+                      3D animation services
+                    </p>
+                  </div>
+                </div>
+            </div>
+
+            <div className="opacity-100 p-12 group px-5 py-7 pb-5 shadow-md z-50 bg-white hover:shadow-lg hover:mt-[-12px] transition-all hover:bg-[#f58020]  hover: sm:px-7.5 xl:col-span-4 col-span-12 rounded-[26px]">
+                <div className="flex">
+                  <div className="">
+                    <h1 className="text-[#f58020] group-hover:text-white service-card- text-[24px] font-[nexa] mb-4">
+                      Graphics Design
+                    </h1>
+                    <p className="text-[#212121] group-hover:text-white font-[Poppins]">
+                      We provide custom design solutions that range from Logo
+                      Design to Mobile and Web{" "}
+                    </p>
+                  </div>
+                </div>
+            </div>
+
+            <div className="opacity-100 p-12 group px-5 py-7 pb-5 shadow-md z-50 bg-white hover:shadow-lg hover:mt-[-12px] transition-all hover:bg-[#f58020]  hover: sm:px-7.5 xl:col-span-4 col-span-12 rounded-[26px]">
+                <div className="flex">
+                  <div className="">
+                    <h1 className="text-[#f58020] group-hover:text-white service-card- text-[24px] font-[nexa] mb-4">
+                      NFT Design
+                    </h1>
+                    <p className="text-[#212121] group-hover:text-white font-[Poppins]">
+                      We craft unique NFT designs, elevating your project with
+                      innovative solutions.{" "}
+                    </p>
+                  </div>
+                </div>
+     
+            </div>
+          </div>
+        </div>
+      </div>
+
+
     </div>
   );
 };

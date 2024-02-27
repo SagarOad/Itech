@@ -10,8 +10,8 @@ const ProjectTabs = () => {
   const [activeTab, setActiveTab] = useState(0);
   const [openModal, setOpenModal] = useState();
   return (
-    <div className=" px-8" id="our-work">
-      <h1 className="services2-heading text-center mb-6 text-3xl md:text-[3.5rem] text-[#212121] font-[nexa] opacity-95 font-bold leading-[70px]">
+    <div className=" container mx-auto" id="our-work">
+      <h1 className="services2-heading relative mt-4 mb-5 md:text-[2.5rem] text-[#f58020] font-[poppins] font-medium leading-tight md:text-center">
         Our Work
       </h1>
 
@@ -21,19 +21,23 @@ const ProjectTabs = () => {
           <span className=" font-extrabold"> Explore further </span>tap the
           button Below for More of Our Work
         </h1>
-        <button
+        {/* <button
           onClick={() => {
             setOpenModal(true);
           }}
           className="leading-normal ml-2 mt-4 text-white bg-[#f58020] rounded-2xl px-4 font-sans font-medium text-[22px] md:text-[26px]"
         >
           Contact Us
-        </button>
+        </button> */}
       </div>
       <div className="flex flex-wrap justify-evenly md:px-4 px-0 py-4 md:mx-auto w-[100%] mb-12 z-30 rounded-full">
         <button
-          className={`${activeTab === 0 ? "bg-[#292A33] text-white" : ""} 
-                rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383] focus:bg-[#292A33] focus:text-white`}
+          className={`${
+            activeTab === 0
+              ? "bg-[#292A33] bg-gradient-to-r from-orange-500 to-orange-400 text-white"
+              : ""
+          } 
+                rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383]`}
           type="button"
           onClick={() => {
             setActiveTab(0);
@@ -42,8 +46,8 @@ const ProjectTabs = () => {
           Web Development
         </button>
         <button
-          className={`${activeTab === 1 ? "bg-[#292A33] text-white" : ""} 
-                rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383] focus:bg-[#292A33] focus:text-white`}
+          className={`${activeTab === 1 ? "bg-[#292A33] bg-gradient-to-r from-orange-500 to-orange-400 text-white" : ""} 
+                rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383]`}
           type="button"
           onClick={() => {
             setActiveTab(1);
@@ -53,8 +57,8 @@ const ProjectTabs = () => {
         </button>
 
         <button
-          className={`${activeTab === 2 ? "bg-[#292A33] text-white" : ""} 
-                rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383] focus:bg-[#292A33] focus:text-white`}
+          className={`${activeTab === 2 ? "bg-[#292A33] bg-gradient-to-r from-orange-500 to-orange-400 text-white" : ""} 
+                rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383]`}
           type="button"
           onClick={() => {
             setActiveTab(2);
@@ -64,8 +68,8 @@ const ProjectTabs = () => {
         </button>
 
         <button
-          className={`${activeTab === 3 ? "bg-[#292A33] text-white" : ""} 
-                rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383] focus:bg-[#292A33] focus:text-white`}
+          className={`${activeTab === 3 ? "bg-[#292A33] bg-gradient-to-r from-orange-500 to-orange-400 text-white" : ""} 
+                rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383]`}
           type="button"
           onClick={() => {
             setActiveTab(3);
@@ -75,8 +79,8 @@ const ProjectTabs = () => {
         </button>
 
         <button
-          className={`${activeTab === 4 ? "bg-[#292A33] text-white" : ""} 
-                rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383] focus:bg-[#292A33] focus:text-white`}
+          className={`${activeTab === 4 ? "bg-[#292A33] bg-gradient-to-r from-orange-500 to-orange-400 text-white" : ""} 
+                rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383]`}
           type="button"
           onClick={() => {
             setActiveTab(4);

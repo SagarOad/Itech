@@ -7,75 +7,83 @@ import MobileApp from "../Components/MobileApp";
 import Animation from "../Components/Animation";
 import GetQuote from "./GetQuote";
 import LogoDesignTemplate from "./LogoDesignTemplate";
+import { MdOutlineWeb } from "react-icons/md";
+import { CiPen } from "react-icons/ci";
+import { CiMobile1 } from "react-icons/ci";
+import { CiVideoOn } from "react-icons/ci";
+import { MdOndemandVideo } from "react-icons/md";
+import UiDesignTemplate from "./UiDesignTemplate";
 
 const SkillTabs = () => {
   const [activeTab, setActiveTab] = useState(0);
   const [openModal, setOpenModal] = useState();
   return (
     <div className=" px-8 container w-[60%] mx-auto" id="our-work">
- 
-
- 
-      <div className="flex flex-wrap justify-evenly md:px-4 px-0 py-4 md:mx-auto w-[100%] mb-12 z-30 rounded-full">
+      <div className="flex flex-wrap border-2 border-b-[#f58020] justify-between md:px-8 px-0 py-4 md:mx-auto w-[100%] z-30">
         <button
-          className={`${activeTab === 0 ? "bg-[#292A33] text-white" : ""} 
-                rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383] focus:bg-[#292A33] focus:text-white`}
+          className={`${activeTab === 0 ? "text-[#f58020]" : ""} 
+                rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383] focus:text-[#f58020]`}
           type="button"
           onClick={() => {
             setActiveTab(0);
           }}
         >
+          <MdOutlineWeb className="mx-auto text-[56px] mb-4" />
           Web Development
         </button>
         <button
-          className={`${activeTab === 1 ? "bg-[#292A33] text-white" : ""} 
-                rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383] focus:bg-[#292A33] focus:text-white`}
+          className={`${activeTab === 1 ? "text-[#f58020]" : ""} 
+          rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383] focus:text-[#f58020]`}
           type="button"
           onClick={() => {
             setActiveTab(1);
           }}
         >
+          <CiPen className="mx-auto text-[56px] mb-4" />
           UI / UX
         </button>
 
         <button
-          className={`${activeTab === 2 ? "bg-[#292A33] text-white" : ""} 
-                rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383] focus:bg-[#292A33] focus:text-white`}
+          className={`${activeTab === 2 ? "text-[#f58020]" : ""} 
+          rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383] focus:text-[#f58020]`}
           type="button"
           onClick={() => {
             setActiveTab(2);
           }}
         >
-          Logo Design
+          <CiMobile1 className="mx-auto text-[56px] mb-4" />
+          Mobile Development
         </button>
 
         <button
-          className={`${activeTab === 3 ? "bg-[#292A33] text-white" : ""} 
-                rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383] focus:bg-[#292A33] focus:text-white`}
+          className={`${activeTab === 3 ? "text-[#f58020]" : ""} 
+          rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383] focus:text-[#f58020]`}
           type="button"
           onClick={() => {
             setActiveTab(3);
           }}
         >
-          Mobile App
+          <CiVideoOn className="mx-auto text-[56px] mb-4" />
+          Video Editing
         </button>
 
         <button
-          className={`${activeTab === 4 ? "bg-[#292A33] text-white" : ""} 
-                rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383] focus:bg-[#292A33] focus:text-white`}
+          className={`${activeTab === 4 ? "text-[#f58020]" : ""} 
+          rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383] focus:text-[#f58020]`}
           type="button"
           onClick={() => {
             setActiveTab(4);
           }}
         >
+          <MdOndemandVideo className="mx-auto text-[56px] mb-4" />
           2d / 3d Animation
         </button>
       </div>
-      <div className=" h-[80vh] overflow-y-scroll">
+      <div className=" overflow-y-scroll">
         {activeTab == 0 ? (
           <LogoDesignTemplate setActiveTab={setActiveTab} />
         ) : activeTab == 1 ? (
-          <WebDesign setActiveTab={setActiveTab} />
+          <UiDesignTemplate setActiveTab={setActiveTab} />
         ) : activeTab == 2 ? (
           <LogoDesign setActiveTab={setActiveTab} />
         ) : activeTab == 3 ? (
