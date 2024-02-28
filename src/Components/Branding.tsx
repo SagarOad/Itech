@@ -1,6 +1,6 @@
 const Branding = () => {
   return (
-    <div className="bg-[#f58020]">
+    <div className="bg-[#f58020] my-24">
       <div className=" container mx-auto">
         <div className="grid py-12 grid-cols-12">
           <div className="xl:col-span-4 mb-12 xl:mb-0 flex flex-col justify-center items-center col-span-12 p-4 mr-6">
@@ -13,13 +13,13 @@ const Branding = () => {
             </p>
           </div>
 
-          <div className="xl:col-span-8 flex items-center col-span-12">
+          <div className="xl:col-span-8 py-24 col-span-12">
             <div className="">
               <div className="grid grid-cols-12 gap-4 md:gap-6 2xl:mt-7.5 2xl:gap-7.5">
                 <div className="opacity-100 p-12 flex justify-center items-center group px-5 py-7 pb-5 shadow-md z-50 bg-white hover:shadow-lg hover:mt-[-12px] transition-all  hover: sm:px-7.5 xl:col-span-3 col-span-12 ">
                   <div className="flex">
                     <div className="">
-                      <h1 className="text-[#f58020] text-center service-card- text-[24px] font-[nexa] mb-4">
+                      <h1 className="text-[#f58020] text-center service-card- text-[30px] font-[nexa] mb-4">
                         90%
                       </h1>
                       <p className="text-[#212121] font-[Poppins]">
@@ -30,9 +30,9 @@ const Branding = () => {
                 </div>
 
                 <div className="opacity-100 p-12 group justify-center items-center px-5 py-7 pb-5 shadow-md z-50 bg-white hover:shadow-lg hover:mt-[-12px] transition-all  hover: sm:px-7.5 xl:col-span-3 col-span-12 ">
-                  <div className="flex">
+                  <div className="flex justify-center items-center">
                     <div className="">
-                      <h1 className="text-[#f58020] text-center service-card- text-[24px] font-[nexa] mb-4">
+                      <h1 className="text-[#f58020] text-center service-card- text-[30px] font-[nexa] mb-4">
                         1570+
                       </h1>
                       <p className="text-[#212121]  font-[Poppins]">
@@ -43,9 +43,9 @@ const Branding = () => {
                 </div>
 
                 <div className="opacity-100 p-12 group justify-center items-center px-5 py-7 pb-5 shadow-md z-50 bg-white hover:shadow-lg hover:mt-[-12px] transition-all   hover: sm:px-7.5 xl:col-span-3 col-span-12 ">
-                  <div className="flex">
+                  <div className="flex justify-center items-center">
                     <div className="">
-                      <h1 className="text-[#f58020] text-center service-card- text-[24px] font-[nexa] mb-4">
+                      <h1 className="text-[#f58020] text-center service-card- text-[30px] font-[nexa] mb-4">
                         NFT Design
                       </h1>
                       <p className="text-[#212121]  font-[Poppins]">
@@ -56,9 +56,9 @@ const Branding = () => {
                 </div>
 
                 <div className="opacity-100 p-12 group justify-center items-center px-5 py-7 pb-5 shadow-md z-50 bg-white hover:shadow-lg hover:mt-[-12px] transition-all   hover: sm:px-7.5 xl:col-span-3 col-span-12 ">
-                  <div className="flex">
+                  <div className="flex justify-center items-center">
                     <div className="">
-                      <h1 className="text-[#f58020] text-center service-card- text-[24px] font-[nexa] mb-4">
+                      <h1 className="text-[#f58020] text-center service-card- text-[30px] font-[nexa] mb-4">
                         NFT Design
                       </h1>
                       <p className="text-[#212121]  font-[Poppins]">

@@ -2,7 +2,7 @@ import arrow from "../assets/vectors/arrows_0059.png";
 
 const Anime = () => {
   return (
-    <div className="anime-banner relative py-20 md:py-28 mt-20 md:mt-10 mb-20 h-auto mx-auto">
+    <div className="anime-banner relative py-20 md:py-28 mt-20 md:mt-10 h-auto mx-auto">
       {/* <div className="bg-[#f58020] absolute right-0 h-[600px] w-[50%]"></div> */}
       <div className="block md:flex justify-between anime-bg relative">
         <div className="px-6 md:px-24 md:w-[50%]">

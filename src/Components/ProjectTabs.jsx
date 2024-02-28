@@ -10,18 +10,20 @@ const ProjectTabs = () => {
   const [activeTab, setActiveTab] = useState(0);
   const [openModal, setOpenModal] = useState();
   return (
-    <div className=" container mx-auto" id="our-work">
-      <h1 className="services2-heading relative mt-4 mb-5 md:text-[2.5rem] text-[#f58020] font-[poppins] font-medium leading-tight md:text-center">
-        Our Work
-      </h1>
-
-      <div className=" my-6 flex flex-col justify-center  p-4 ml-auto font-bold items-center">
-        <h1 className="leading-normal text-[#f58020] font-sans font-medium text-[24px] md:text-[26px] text-center">
-          It's not our complete portfolio{" "}
-          <span className=" font-extrabold"> Explore further </span>tap the
-          button Below for More of Our Work
+    <div className="" id="our-work">
+      <div className=" px-8 container w-[60%] mx-auto">
+        <h1 className="services2-heading relative mt-4 md:text-[2.5rem] text-black font-[poppins] font-medium leading-tight md:text-center">
+          Our
+          <span className="mx-4 span-color bg-clip-text text-[#f58020]">
+            Work
+          </span>
         </h1>
-        {/* <button
+        <div className=" flex flex-col justify-center  p-4 ml-auto font-bold items-center">
+          <h1 className="leading-normal text-[#4e4e4e] font-[poppins] text-center font-[300] text-[18px] md:text-[30px]">
+            It's not our complete portfolio Explore further tap the button Below
+            for More of Our Work
+          </h1>
+          {/* <button
           onClick={() => {
             setOpenModal(true);
           }}
@@ -29,65 +31,82 @@ const ProjectTabs = () => {
         >
           Contact Us
         </button> */}
-      </div>
-      <div className="flex flex-wrap justify-evenly md:px-4 px-0 py-4 md:mx-auto w-[100%] mb-12 z-30 rounded-full">
-        <button
-          className={`${
-            activeTab === 0
-              ? "bg-[#292A33] bg-gradient-to-r from-orange-500 to-orange-400 text-white"
-              : ""
-          } 
+        </div>
+        <div className="flex flex-wrap justify-evenly md:px-4 px-0 py-4 md:mx-auto w-[100%] mb-12 z-30 rounded-full">
+          <button
+            className={`${
+              activeTab === 0
+                ? "bg-[#292A33] bg-gradient-to-r from-orange-500 to-orange-400 text-white"
+                : ""
+            } 
                 rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383]`}
-          type="button"
-          onClick={() => {
-            setActiveTab(0);
-          }}
-        >
-          Web Development
-        </button>
-        <button
-          className={`${activeTab === 1 ? "bg-[#292A33] bg-gradient-to-r from-orange-500 to-orange-400 text-white" : ""} 
+            type="button"
+            onClick={() => {
+              setActiveTab(0);
+            }}
+          >
+            Web Development
+          </button>
+          <button
+            className={`${
+              activeTab === 1
+                ? "bg-[#292A33] bg-gradient-to-r from-orange-500 to-orange-400 text-white"
+                : ""
+            } 
                 rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383]`}
-          type="button"
-          onClick={() => {
-            setActiveTab(1);
-          }}
-        >
-          UI / UX
-        </button>
+            type="button"
+            onClick={() => {
+              setActiveTab(1);
+            }}
+          >
+            UI / UX
+          </button>
 
-        <button
-          className={`${activeTab === 2 ? "bg-[#292A33] bg-gradient-to-r from-orange-500 to-orange-400 text-white" : ""} 
+          <button
+            className={`${
+              activeTab === 2
+                ? "bg-[#292A33] bg-gradient-to-r from-orange-500 to-orange-400 text-white"
+                : ""
+            } 
                 rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383]`}
-          type="button"
-          onClick={() => {
-            setActiveTab(2);
-          }}
-        >
-          Logo Design
-        </button>
+            type="button"
+            onClick={() => {
+              setActiveTab(2);
+            }}
+          >
+            Logo Design
+          </button>
 
-        <button
-          className={`${activeTab === 3 ? "bg-[#292A33] bg-gradient-to-r from-orange-500 to-orange-400 text-white" : ""} 
+          <button
+            className={`${
+              activeTab === 3
+                ? "bg-[#292A33] bg-gradient-to-r from-orange-500 to-orange-400 text-white"
+                : ""
+            } 
                 rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383]`}
-          type="button"
-          onClick={() => {
-            setActiveTab(3);
-          }}
-        >
-          Mobile App
-        </button>
+            type="button"
+            onClick={() => {
+              setActiveTab(3);
+            }}
+          >
+            Mobile App
+          </button>
 
-        <button
-          className={`${activeTab === 4 ? "bg-[#292A33] bg-gradient-to-r from-orange-500 to-orange-400 text-white" : ""} 
+          <button
+            className={`${
+              activeTab === 4
+                ? "bg-[#292A33] bg-gradient-to-r from-orange-500 to-orange-400 text-white"
+                : ""
+            } 
                 rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383]`}
-          type="button"
-          onClick={() => {
-            setActiveTab(4);
-          }}
-        >
-          2d / 3d Animation
-        </button>
+            type="button"
+            onClick={() => {
+              setActiveTab(4);
+            }}
+          >
+            2d / 3d Animation
+          </button>
+        </div>
       </div>
       <div className=" h-[80vh] overflow-y-scroll">
         {activeTab == 0 ? (

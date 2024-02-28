@@ -13,6 +13,8 @@ import ProjectTabs from "../Components/ProjectTabs";
 import Navbar from '../Components/Navbar';
 import { Helmet } from 'react-helmet';
 import SkillTabs from '../Components/SkillTabs';
+import Process from '../Components/Process';
+import LineBanner from '../Components/LineBanner';
 
 const Home = () => {
   useEffect(() => {
@@ -57,7 +59,9 @@ document.head.appendChild(colonicalTag)
       <SkillTabs />
       <ProjectTabs />
       <Branding />
-      <Anime />
+      <Process />
+      <LineBanner />
+      {/* <Anime /> */}
       <ContactSection />
       <Pricing />
       {/* <Map /> */}
