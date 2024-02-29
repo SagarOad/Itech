@@ -1789,7 +1789,7 @@ nav{
     top: 0;
     left: 0;
     height: 100px;
-    padding: 10px 100px;
+    padding: 10px 196px;
     box-sizing: border-box;
     transition: .5s;
     /* z-index: 999; */
@@ -1808,7 +1808,7 @@ nav{
 nav.black{
     background: rgba(0,0,0,0.8);
     height: 80px;
-    padding: 10px 50px;
+    padding: 10px 128px;
     z-index: 888;
     color: white;
 }
@@ -1820,13 +1820,16 @@ nav.black{
 nav .logo{
     float: left;
 }
-nav .logo img{
-    height: 80px;
+.black-logo{
+    height: 62px;
+    transition: .5s;
+    margin-top: 6px;
+}
+.white-logo{
+    height: 52px;
     transition: .5s;
 }
-nav.black .logo img{
-    height: 60px;
-}
+
 nav > ul{
     width: 80%;
     margin: 0 auto;
@@ -1838,7 +1841,7 @@ nav > ul > li{
     display: inline-block;
 }
 nav > ul > li > a:hover{
-    background: #f00;
+    background: #f58020;
     color: #fff;
 }
 nav > ul > li > a{

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../assets/fame-itech-png.png";
+import logo from "../assets/fame-itech1-png.png";
 import GetQuote from "./GetQuote";
 import { Link, useNavigate } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
