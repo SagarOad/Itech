@@ -39,15 +39,37 @@ const MainBanner = () => {
 
   return (
     <div id="main-banner" className="">
+      <div class="area">
+        <ul class="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      {/* <div className="">
+        <div className=" w-[60px] h-[60px] bg-white"></div>
+        <div>
+          <div className=" w-[60px] h-[60px] bg-white"></div>
+          <div className=" w-[60px] h-[60px] bg-[#D1D1D1]"></div>
+        </div>
+        <div className=" w-[60px] h-[60px] bg-[#D1D1D1]"></div>
+      </div> */}
       <div className=" container mx-auto">
-        <div className="px-8 pt-20 flex flex-wrap flex-col md:flex-row items-center">
+        <div className=" pt-20 flex flex-wrap flex-col md:flex-row items-center">
           <div className="flex flex-col w-full py-48 xl:w-[50%] justify-center lg:items-start ">
-            <h1 className="main-banner-heading relative mt-4 mb-5 text-[5rem] sm:text-5xl md:text-[3rem] text-white font-[poppins] font-medium md:text-left">
+            <h1 className="main-banner-heading relative mt-4 mb-5 text-[5rem] sm:text-5xl md:text-[4rem] text-white font-[poppins] font-medium md:text-left">
               <span className="flex justify-center absolute left-60 top-[-33px]">
                 {/* <img src={shineSvt} className="w-[80px]" /> */}
               </span>{" "}
               Grow with Our
-              {/* <br /> */}
+              <br />
               <span className=" bg-white text-[#f58020] ml-3 font-[poppins] font-bold">
                 Tech Magic
               </span>

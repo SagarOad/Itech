@@ -1,148 +1,10 @@
-import React, { useState } from "react";
-import logo from "../assets/fame-itech-png.png";
-import GetQuote from "./GetQuote";
-import { Link, useNavigate } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
-import whiteLogo from "../assets/newLogo.png"
+import React from 'react'
 
-const Navbar = () => {
-  const [openModal, setOpenModal] = useState(false);
-  const [isDropdownVisible, setDropdownVisible] = useState(false);
-  const [navs, setNavs] = useState(false);
-
-  const navigate = useNavigate();
-
-  const handleDropdownToggle = () => {
-    setDropdownVisible(!isDropdownVisible);
-  };
-
-  const handleDropdownClose = () => {
-    setDropdownVisible(false);
-  };
-
-  const handleAbout = () => {
-    navigate("/about");
-  };
-
+const Devv = () => {
   return (
-    <>
-      <div className="">
-        <div className="responsive-bar">
-          <div className="logo">
-            <img src={logo} alt="logo" />
-          </div>
-          <div className="menu">
-            <h4>Menu</h4>
-          </div>
-        </div>
-        <nav className="nav z-[999]">
-          <div className="logo">
-            <Link to="/">
-              <img className=" black-logo" src={logo} alt="logo" />
-              <img className=" white-logo" src={whiteLogo} alt="logo" />
-            </Link>
-          </div>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li onMouseLeave={handleDropdownClose}>
-              <div className="group relative cursor-pointer">
-                <div className=""
-                  onMouseEnter={handleDropdownToggle}
-                  onClick={handleDropdownToggle}
-                >
-                  <HashLink
-                    smooth
-                    to={"/#services"}
-                    data-dropdown-toggle="dropdownHover"
-                    data-dropdown-trigger="hover"
-                    id="dropdownHoverButton"
-                    className="text-[#212121] menu-hover hover:text-[#f58020] font-[poppins] font-[500] text-[18px] md:text-[18px]"
-                    aria-current="page"
-                  >
-                    Services
-                  </HashLink>
-                </div>
-                <div
-                  className={`${
-                    isDropdownVisible ? "block" : "hidden"
-                  } invisible md:visible w-64 absolute z-50 flex font-[poppins] font-[500] flex-col bg-gray-100 py-1 text-gray-800 shadow-xl`}
-                >
-                  <Link to="/servicepage">
-                    <a className="my-2 block border-b border-gray-100 font-[500] text-gray-500 px-4 py-2 hover:bg-[#f58020] text-left  hover:text-white md:mx-2">
-                      Mobile Application
-                    </a>
-                  </Link>
-                  <Link to="/ecommerce">
-                    <a className="my-2 block border-b border-gray-100 font-[500] text-gray-500 px-4 py-2 hover:bg-[#f58020] text-left hover:text-white md:mx-2">
-                      Web Development
-                    </a>
-                  </Link>
-                  <Link to="/digitalmarketing">
-                    <a className="my-2 block border-b border-gray-100 font-[500] text-gray-500 px-4 py-2 hover:bg-[#f58020] text-left hover:text-white md:mx-2">
-                      Social Media Marketing
-                    </a>
-                  </Link>
-                  <Link to="/animation">
-                    <a className="my-2 block border-b border-gray-100 font-[500] text-gray-500 px-4 py-2 hover:bg-[#f58020] text-left hover:text-white md:mx-2">
-                      2D / 3D Animation
-                    </a>
-                  </Link>
-                  <Link to="/graphicsdesign">
-                    <a className="my-2 block border-b border-gray-100 font-[500] text-gray-500 px-4 py-2 hover:bg-[#f58020] text-left hover:text-white md:mx-2">
-                      Graphics Design
-                    </a>
-                  </Link>
-                  <Link to="/softwaredevelopment">
-                    <a className="my-2 block border-b border-gray-100 font-[500] text-gray-500 px-4 py-2 hover:bg-[#f58020] text-left hover:text-white md:mx-2">
-                      Video Editing
-                    </a>
-                  </Link>
-                  <Link to="/nftdesigning">
-                    <a className="my-2 block border-b border-gray-100 font-[500] text-gray-500 px-4 py-2 hover:bg-[#f58020] text-left hover:text-white md:mx-2">
-                      NTF Design{" "}
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </li>
-            <li>
-              <HashLink smooth to={"/#our-work"}>
-                Projects
-              </HashLink>
-            </li>
-            <li>
-              <HashLink smooth to={"#pricing"}>
-                Prices
-              </HashLink>
-            </li>
-            <li>
-              <a className=" cursor-pointer">Blog</a>
-            </li>
-            <li>
-              <HashLink smooth to={"/about"}>
-                About
-              </HashLink>
-            </li>
-            <li>
-              <HashLink to={"/#contact"}>
-                Contact
-              </HashLink>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <div className="responsive-bar">
+    <div>
+        <nav>
         <div className="logo">
-          <img className="" src={logo} alt="logo" />
-        </div>
-        <div className="menu">
-          <h4>Menu</h4>
-        </div>
-      </div>
-      {/* <nav>
-        <div class="logo">
           <img
             src="http://www.mhf.org.au/media/zoo/images/yourlogohere_2cb8c31ab01096e7842d781ac311a776.png"
             alt="logo"
@@ -172,7 +34,7 @@ const Navbar = () => {
           <div className="flex md:flex-wrap items-center justify-between mx-auto">
             <a
               href="https://flowbite.com/"
-              class="flex items-center space-x-3 rtl:space-x-reverse"
+              className="flex items-center space-x-3 rtl:space-x-reverse"
             >
               <Link to="/" className="flex items-center cursor-pointer mr-12">
                 <img src={logo} className="md:w-[168px] w-[120px]" />
@@ -212,10 +74,10 @@ const Navbar = () => {
               </button>
             </div>
             <div
-              class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+              className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
               id="navbar-sticky"
             >
-              <ul class="flex flex-col p-4 md:p-0 mt-4 font-[500] border  rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
+              <ul className="flex flex-col p-4 md:p-0 mt-4 font-[500] border  rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
                 <li className="pl-[1rem] py-2 md:py-0 md:border-0 border-t-2 border-white text-end">
                   <Link to="/">
                     <p className="text-[#212121] hover:text-[#f58020] font-[poppins] font-[500] text-[18px] md:text-[18px]">
@@ -457,9 +319,9 @@ const Navbar = () => {
             Title="Request a Quote"
           />
         )}
-      </div> */}
-    </>
-  );
-};
+      </div>
+    </div>
+  )
+}
 
-export default Navbar;
+export default Devv

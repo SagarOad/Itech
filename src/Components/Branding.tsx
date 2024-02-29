@@ -1,6 +1,6 @@
 const Branding = () => {
   return (
-    <div className="bg-[#f58020] my-24">
+    <div className="branding-banner my-24">
       <div className=" container mx-auto">
         <div className="grid py-12 grid-cols-12">
           <div className="xl:col-span-4 mb-12 xl:mb-0 flex flex-col justify-center items-center col-span-12 p-4 mr-6">
