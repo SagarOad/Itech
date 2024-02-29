@@ -1,0 +1,1175 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Mentheer - Template kit for Mental Health & Therapy",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/newkit.moxcreative.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Homepage",
+            "screenshot": "screenshots\/homepage.jpg",
+            "source": "templates\/homepage.json",
+            "preview_url": "https:\/\/newkit.moxcreative.com\/mentheer\/template-kit\/homepage\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About us",
+            "screenshot": "screenshots\/about-us.jpg",
+            "source": "templates\/about-us.json",
+            "preview_url": "https:\/\/newkit.moxcreative.com\/mentheer\/template-kit\/about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single Service",
+            "screenshot": "screenshots\/single-service.jpg",
+            "source": "templates\/single-service.json",
+            "preview_url": "https:\/\/newkit.moxcreative.com\/mentheer\/template-kit\/single-service\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.jpg",
+            "source": "templates\/services.json",
+            "preview_url": "https:\/\/newkit.moxcreative.com\/mentheer\/template-kit\/services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Pricing Plan",
+            "screenshot": "screenshots\/pricing-plan.jpg",
+            "source": "templates\/pricing-plan.json",
+            "preview_url": "https:\/\/newkit.moxcreative.com\/mentheer\/template-kit\/pricing-plan\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Appointment",
+            "screenshot": "screenshots\/appointment.jpg",
+            "source": "templates\/appointment.json",
+            "preview_url": "https:\/\/newkit.moxcreative.com\/mentheer\/template-kit\/appointment\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Team",
+            "screenshot": "screenshots\/team.jpg",
+            "source": "templates\/team.json",
+            "preview_url": "https:\/\/newkit.moxcreative.com\/mentheer\/template-kit\/team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/newkit.moxcreative.com\/mentheer\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact us",
+            "screenshot": "screenshots\/contact-us.jpg",
+            "source": "templates\/contact-us.json",
+            "preview_url": "https:\/\/newkit.moxcreative.com\/mentheer\/template-kit\/contact-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Mentheer - Error 404",
+            "screenshot": "screenshots\/mentheer-error-404.jpg",
+            "source": "templates\/mentheer-error-404.json",
+            "preview_url": "https:\/\/newkit.moxcreative.com\/mentheer\/?elementor_library=mentheer-error-404",
+            "type": "error-404",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "error-404",
+                "elementor_pro_conditions": [
+                    "include\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Error 404\" template for Elementor Pro.",
+                    "This template will display on: 404 Page."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Mentheer - Single post",
+            "screenshot": "screenshots\/mentheer-single-post.jpg",
+            "source": "templates\/mentheer-single-post.json",
+            "preview_url": "https:\/\/newkit.moxcreative.com\/mentheer\/?elementor_library=mentheer-single-post",
+            "type": "single-post",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-post",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Post\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Mentheer - Archive Blog",
+            "screenshot": "screenshots\/mentheer-archive-blog.jpg",
+            "source": "templates\/mentheer-archive-blog.json",
+            "preview_url": "https:\/\/newkit.moxcreative.com\/mentheer\/?elementor_library=mentheer-archive-blog",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: All Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Mentheer - Footer",
+            "screenshot": "screenshots\/mentheer-footer.jpg",
+            "source": "templates\/mentheer-footer.json",
+            "preview_url": "https:\/\/newkit.moxcreative.com\/mentheer\/?elementor_library=mentheer-footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Mentheer - Header",
+            "screenshot": "screenshots\/mentheer-header.jpg",
+            "source": "templates\/mentheer-header.json",
+            "preview_url": "https:\/\/newkit.moxcreative.com\/mentheer\/?elementor_library=mentheer-header",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "ElementsKit Lite",
+            "version": "2.7.0",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Skyboot Custom Icons for Elementor - Elementor Icons library",
+            "version": "1.0.5",
+            "file": "skyboot-custom-icons-for-elementor\/skyboot-custom-icons-for-elementor.php",
+            "author": "Skybootstrap"
+        },
+        {
+            "name": "Elementor Pro",
+            "version": "3.7.1",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "psychologist-listening-to-patient-at-session.jpg",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/psychologist-listening-to-patient-at-session-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing Plan"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 197302,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-LKG5UWY"
+        },
+        {
+            "filename": "mental-health-and-counseling.jpg",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/mental-health-and-counseling-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/mentheer-single-post.json",
+                    "name": "Mentheer - Single post"
+                }
+            ],
+            "filesize": 122811,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-5JQGTPU"
+        },
+        {
+            "filename": "loving-black-couple-visiting-therapy-session-at-psychologist-39-s-office.jpg",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/loving-black-couple-visiting-therapy-session-at-psychologist-39-s-office-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 115510,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-EDVQUYP"
+        },
+        {
+            "filename": "bg_pattern.png",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/bg_pattern.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single Service"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing Plan"
+                },
+                {
+                    "source": "templates\/appointment.json",
+                    "name": "Appointment"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact us"
+                }
+            ],
+            "filesize": 832,
+            "dimensions": [
+                100,
+                18
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/heropatterns.com\/"
+        },
+        {
+            "filename": "Pattern_img.png",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/Pattern_img-800x660.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single Service"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing Plan"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 36475,
+            "dimensions": [
+                1213,
+                1000
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "at-the-psychologist-1.jpg",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/at-the-psychologist-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 179609,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-9XYAPP9"
+        },
+        {
+            "filename": "counselor-with-men-and-women-sitting-in-circle-during-group-therapy-looking-at-camera.jpg",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/counselor-with-men-and-women-sitting-in-circle-during-group-therapy-looking-at-camera-800x464.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single Service"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/appointment.json",
+                    "name": "Appointment"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact us"
+                }
+            ],
+            "filesize": 115508,
+            "dimensions": [
+                1280,
+                743
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-46V85MQ"
+        },
+        {
+            "filename": "sad-teenager-girl-schoolgirl-in-depression.jpg",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/sad-teenager-girl-schoolgirl-in-depression-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 99538,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-XB766AU"
+        },
+        {
+            "filename": "senior-psychologist-consulting-patient.jpg",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/senior-psychologist-consulting-patient-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/appointment.json",
+                    "name": "Appointment"
+                }
+            ],
+            "filesize": 231575,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-7JNKFYR"
+        },
+        {
+            "filename": "woman-school-psychologist-teacher-social-worker-mentor-working-with-teenage-girl-1.jpg",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/woman-school-psychologist-teacher-social-worker-mentor-working-with-teenage-girl-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 133704,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-E68XVTN"
+        },
+        {
+            "filename": "talented-psychologist-posing-for-photography.jpg",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/talented-psychologist-posing-for-photography-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing Plan"
+                }
+            ],
+            "filesize": 105976,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PBC5TYZ"
+        },
+        {
+            "filename": "img__0005_Layer-3.jpg",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/img__0005_Layer-3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing Plan"
+                }
+            ],
+            "filesize": 43481,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/happy-confident-male-entrepreneur-with-postive-smi-BDAU9DK"
+        },
+        {
+            "filename": "img__0002_Layer-6.jpg",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/img__0002_Layer-6.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing Plan"
+                }
+            ],
+            "filesize": 58477,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/carefree-attractive-girl-with-pleasant-look-enjoys-4GXJZTE"
+        },
+        {
+            "filename": "img__0006_Layer-2.jpg",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/img__0006_Layer-2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing Plan"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 50306,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/joyful-freckled-teenager-wears-round-transparent-g-EPRUCGN"
+        },
+        {
+            "filename": "woman-school-psychologist-teacher-social-worker-mentor-working-with-teenage-girl.jpg",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/woman-school-psychologist-teacher-social-worker-mentor-working-with-teenage-girl-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single Service"
+                }
+            ],
+            "filesize": 134459,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-78XFQ2H"
+        },
+        {
+            "filename": "img__0000_Layer-8.jpg",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/img__0000_Layer-8.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 33914,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/optimistic-positive-handsome-bearded-man-FXXXGY4"
+        },
+        {
+            "filename": "img__0004_Layer-4.jpg",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/img__0004_Layer-4.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 40613,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/waist-up-shot-of-handsome-self-confident-cheerful--BUTM9PX"
+        },
+        {
+            "filename": "img__0003_Layer-5.jpg",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/img__0003_Layer-5.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 47988,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/joyful-freckled-teenager-wears-round-transparent-g-EPRUCGN"
+        },
+        {
+            "filename": "img__0007_Layer-1.jpg",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/img__0007_Layer-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 42410,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/pleased-cheerful-redhaired-male-with-pleasant-smil-CCXAYZL"
+        },
+        {
+            "filename": "couple-with-psychologist-in-the-office.jpg",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/couple-with-psychologist-in-the-office-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 152251,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-8TY2YS3"
+        },
+        {
+            "filename": "discussing-problem.jpg",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/discussing-problem-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 109780,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-6V24ZCC"
+        },
+        {
+            "filename": "professional-psychologist-e1664169147384.jpg",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/professional-psychologist-e1664168739124-800x1067.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single Service"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 42669,
+            "dimensions": [
+                500,
+                667
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-DMGX85A"
+        },
+        {
+            "filename": "page5.png",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/page5.png",
+            "templates": [
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single Service"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing Plan"
+                },
+                {
+                    "source": "templates\/appointment.json",
+                    "name": "Appointment"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 136344,
+            "dimensions": [
+                720,
+                977
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ecommerce-illustration-WVTZFH6"
+        },
+        {
+            "filename": "at-the-psychologist-2.jpg",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/at-the-psychologist-2-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 119273,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-R7BQS5Z"
+        },
+        {
+            "filename": "successful-psychologist-at-office.jpg",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/successful-psychologist-at-office-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/appointment.json",
+                    "name": "Appointment"
+                }
+            ],
+            "filesize": 105567,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-BACGAK3"
+        },
+        {
+            "filename": "psychologist-at-work-e1664169137673.jpg",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/psychologist-at-work-e1664169123527-800x1068.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 37073,
+            "dimensions": [
+                500,
+                667
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-JRFCHDW"
+        },
+        {
+            "filename": "businesswoman-librarian-psychologist-teacher-with-arms-crossed-looking-at-camera-in-library-office-e1664169307129.jpg",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/businesswoman-librarian-psychologist-teacher-with-arms-crossed-looking-at-camera-in-library-office-e1664169292781-800x1068.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 52879,
+            "dimensions": [
+                500,
+                668
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-BANH337"
+        },
+        {
+            "filename": "mature-psychologist-e1664169353893.jpg",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/mature-psychologist-e1664169341846-800x1068.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 54087,
+            "dimensions": [
+                500,
+                667
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-GT4DHHG"
+        },
+        {
+            "filename": "at-the-psychologist-e1664169424156.jpg",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/at-the-psychologist-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 43697,
+            "dimensions": [
+                500,
+                667
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-MBG7PSV"
+        },
+        {
+            "filename": "beautiful-psychologist-posing-for-photography-e1664169504749.jpg",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/beautiful-psychologist-posing-for-photography-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 33289,
+            "dimensions": [
+                500,
+                667
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-GD5VTJS"
+        },
+        {
+            "filename": "psychologist-listens-attentively-to-a-client-in-his-office-e1664169598416.jpg",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/psychologist-listens-attentively-to-a-client-in-his-office-800x1200.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 35025,
+            "dimensions": [
+                500,
+                668
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-HAXA734"
+        },
+        {
+            "filename": "portrait-of-confident-young-psychologist-e1664169729294.jpg",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/portrait-of-confident-young-psychologist-e1664169710830-800x1066.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 54351,
+            "dimensions": [
+                500,
+                666
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-G84LSHZ"
+        },
+        {
+            "filename": "woman-with-psychologist-in-the-office.jpg",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/woman-with-psychologist-in-the-office-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 139302,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-GBXGQ63"
+        },
+        {
+            "filename": "a-beautiful-young-asian-woman-holding-and-using-mobile-phone.jpg",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/a-beautiful-young-asian-woman-holding-and-using-mobile-phone-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact us"
+                }
+            ],
+            "filesize": 84886,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-KJJ8V62"
+        },
+        {
+            "filename": "notes.jpg",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/notes-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/mentheer-error-404.json",
+                    "name": "Mentheer - Error 404"
+                }
+            ],
+            "filesize": 45209,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-3ZKS26C"
+        },
+        {
+            "filename": "reading-the-business-news.jpg",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/reading-the-business-news-800x267.jpg",
+            "templates": [
+                {
+                    "source": "templates\/mentheer-archive-blog.json",
+                    "name": "Mentheer - Archive Blog"
+                }
+            ],
+            "filesize": 56156,
+            "dimensions": [
+                1280,
+                427
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-P5LMGQ4"
+        },
+        {
+            "filename": "logo_mentheer.png",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/logo_mentheer.png",
+            "templates": [
+                {
+                    "source": "templates\/mentheer-footer.json",
+                    "name": "Mentheer - Footer"
+                }
+            ],
+            "filesize": 18009,
+            "dimensions": [
+                636,
+                154
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo_mentheer_w.png",
+            "thumbnail_url": "https:\/\/newkit.moxcreative.com\/mentheer\/wp-content\/uploads\/sites\/31\/2022\/09\/logo_mentheer_w.png",
+            "templates": [
+                {
+                    "source": "templates\/mentheer-header.json",
+                    "name": "Mentheer - Header"
+                }
+            ],
+            "filesize": 16908,
+            "dimensions": [
+                636,
+                154
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        }
+    ]
+}

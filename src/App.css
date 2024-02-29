@@ -1600,7 +1600,7 @@ a.my-2.block.border-b.border-gray-100.py-1.font-semibold.text-gray-500.hover\:te
 #main-banner {
   position: relative; /* Make sure the container is positioned */
   width: 100%;
-  /* background-image: url("./assets/main-banner.jpg"); */
+  background-image: url("https://cdn3.vectorstock.com/i/1000x1000/18/07/colorful-pixels-background-vector-21801807.jpg");
   background-size: cover; /* Adjust background size as needed */
   background-position: center;
   height: auto;
@@ -1613,7 +1613,7 @@ a.my-2.block.border-b.border-gray-100.py-1.font-semibold.text-gray-500.hover\:te
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(120deg, #f58020f3 0%, #f6d365 100%);
+  background-image: linear-gradient(120deg, #f58020 0%, #e4563aef 100%);
 }
 
 
@@ -1627,11 +1627,12 @@ a.my-2.block.border-b.border-gray-100.py-1.font-semibold.text-gray-500.hover\:te
 
 .main-video {
   border-radius: 70% 30% 33% 67% / 37% 28% 72% 63%;
+  /* border-radius: 50px; */
 }
 
 
 .video-bg-shape2 {
-  border-radius: 70% 30% 33% 67% / 37% 28% 72% 63%;
+  border-radius: 50px;
 }
 
 
@@ -1806,7 +1807,7 @@ nav{
 } */
 
 nav.black{
-    background: rgba(0,0,0,0.8);
+    background: rgba(0, 0, 0, 0.641);
     height: 80px;
     padding: 10px 128px;
     z-index: 888;
@@ -1821,17 +1822,18 @@ nav .logo{
     float: left;
 }
 .black-logo{
-    height: 62px;
+    height: 44px;
     transition: .5s;
-    margin-top: 6px;
+    margin-top: 15px;
 }
 .white-logo{
-    height: 52px;
+    height: 32px;
+    margin-top: 12px;
     transition: .5s;
 }
 
 nav > ul{
-    width: 80%;
+    /* width: 80%; */
     margin: 0 auto;
     padding: 0;
     float: right;
@@ -1960,4 +1962,9 @@ section.sec2{
     .active{
         display: block;
     }
+}
+
+
+span.text-\[white\].tracking-\[1px\].text-\[20rem\].font-\[poppins\].font-bold {
+  line-height: 82px  !important;
 }

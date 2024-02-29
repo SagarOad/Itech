@@ -1,0 +1,318 @@
+{
+    "version": "0.4",
+    "title": "Single Post",
+    "type": "page",
+    "metadata": {
+        "template_type": "single-page",
+        "include_in_zip": "1",
+        "elementor_pro_required": null,
+        "wp_page_template": "elementor_canvas"
+    },
+    "content": [
+        {
+            "id": "494f204",
+            "settings": {
+                "flex_direction": "column",
+                "padding": {
+                    "unit": "px",
+                    "top": "100",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "100",
+                    "right": "20",
+                    "bottom": "100",
+                    "left": "20",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "50",
+                    "right": "10",
+                    "bottom": "50",
+                    "left": "10",
+                    "isLinked": false
+                },
+                "_title": "Hero",
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "z_index": 1,
+                "__globals__": {
+                    "background_color": ""
+                }
+            },
+            "elements": [
+                {
+                    "id": "7c547d14",
+                    "settings": {
+                        "min_height": {
+                            "unit": "px",
+                            "size": 350,
+                            "sizes": []
+                        },
+                        "flex_justify_content": "center",
+                        "flex_align_items": "center",
+                        "flex_gap": {
+                            "column": "10",
+                            "row": "10",
+                            "isLinked": true,
+                            "unit": "px",
+                            "size": 10
+                        },
+                        "background_background": "classic",
+                        "background_image": {
+                            "id": 299,
+                            "url": "https:\/\/kits.typstd.com\/psykit\/wp-content\/uploads\/sites\/16\/2023\/10\/young-couple-during-a-psychological-session-with-p-2021-12-09-03-19-30-utc-1920x1281-1.webp",
+                            "alt": "",
+                            "source": "library",
+                            "size": ""
+                        },
+                        "background_attachment": "fixed",
+                        "background_size": "cover",
+                        "background_overlay_background": "gradient",
+                        "border_radius": {
+                            "unit": "px",
+                            "top": "25",
+                            "right": "25",
+                            "bottom": "25",
+                            "left": "25",
+                            "isLinked": true
+                        },
+                        "__globals__": {
+                            "background_overlay_color": "globals\/colors?id=primary",
+                            "background_overlay_color_b": "globals\/colors?id=3241d62"
+                        },
+                        "background_overlay_gradient_angle": {
+                            "unit": "deg",
+                            "size": 360,
+                            "sizes": []
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "23d4eabd",
+                            "settings": {
+                                "title": "The Role of Relationships in Mental Health",
+                                "__globals__": {
+                                    "title_color": "globals\/colors?id=3facd0c",
+                                    "typography_typography": "globals\/typography?id=text"
+                                },
+                                "align_mobile": "center",
+                                "align": "center",
+                                "_animation": "fadeInUp",
+                                "_animation_delay": 100
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "6be97eb0",
+                            "settings": {
+                                "flex_direction": "row",
+                                "flex_justify_content": "center",
+                                "flex_gap": {
+                                    "column": "20",
+                                    "row": "20",
+                                    "isLinked": true,
+                                    "unit": "px",
+                                    "size": 20
+                                },
+                                "animation": "fadeInUp",
+                                "animation_delay": 200
+                            },
+                            "elements": [
+                                {
+                                    "id": "448610a9",
+                                    "settings": {
+                                        "title": "Home",
+                                        "__globals__": {
+                                            "title_color": "globals\/colors?id=3facd0c",
+                                            "typography_typography": "globals\/typography?id=fae77b1"
+                                        },
+                                        "align_mobile": "center",
+                                        "align": "center"
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "heading",
+                                    "elType": "widget"
+                                },
+                                {
+                                    "id": "61cb8a19",
+                                    "settings": {
+                                        "title": "\/",
+                                        "__globals__": {
+                                            "title_color": "globals\/colors?id=3facd0c",
+                                            "typography_typography": "globals\/typography?id=fae77b1"
+                                        },
+                                        "align_mobile": "center",
+                                        "align": "center"
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "heading",
+                                    "elType": "widget"
+                                },
+                                {
+                                    "id": "41cf48b1",
+                                    "settings": {
+                                        "title": "Blog",
+                                        "__globals__": {
+                                            "title_color": "globals\/colors?id=3facd0c",
+                                            "typography_typography": "globals\/typography?id=fae77b1"
+                                        },
+                                        "align_mobile": "center",
+                                        "align": "center"
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "heading",
+                                    "elType": "widget"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "container"
+                        }
+                    ],
+                    "isInner": true,
+                    "elType": "container"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        },
+        {
+            "id": "1a78bb60",
+            "settings": {
+                "padding": {
+                    "unit": "px",
+                    "top": "100",
+                    "right": "0",
+                    "bottom": "100",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "_title": "Content"
+            },
+            "elements": [
+                {
+                    "id": "65500b0f",
+                    "settings": {
+                        "editor": "<!-- wp:paragraph -->\n<p>Good health starts with what you eat. A balanced diet is the foundation of a healthy lifestyle. This article dives into the significance of proper nutrition, offering guidance on how to achieve it and explaining the far-reaching benefits it has for your well-being.<\/p>\n<!-- \/wp:paragraph --><!-- wp:paragraph -->\n<p>Balanced nutrition is the cornerstone of a healthy life. It's not just about controlling your weight; it's about nourishing your body with the essential nutrients it needs to function optimally. Let's explore the importance of a balanced diet, how to achieve it, and the many benefits it brings.<\/p>\n<p>First and foremost, a balanced diet ensures that your body receives all the vital nutrients, including carbohydrates, proteins, fats, vitamins, and minerals. These nutrients are essential for various bodily functions, from energy production to tissue repair. A deficiency in any of these can lead to health problems.<\/p>\n<p><!-- \/wp:paragraph --><!-- wp:paragraph --><\/p>\n<p>A well-rounded diet is also crucial for weight management. By consuming a variety of nutrient-dense foods, you can maintain a healthy weight, reducing the risk of obesity and related conditions like diabetes and heart disease.<\/p>\n<!-- \/wp:paragraph -->",
+                        "drop_cap": "yes",
+                        "align": "justify",
+                        "_margin": {
+                            "unit": "px",
+                            "top": "20",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "__globals__": {
+                            "text_color": "globals\/colors?id=accent",
+                            "typography_typography": "globals\/typography?id=fae77b1",
+                            "drop_cap_primary_color": "globals\/colors?id=primary",
+                            "drop_cap_typography_typography": "globals\/typography?id=primary"
+                        }
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "text-editor",
+                    "elType": "widget"
+                },
+                {
+                    "id": "5a5c1183",
+                    "settings": {
+                        "min_height": {
+                            "unit": "px",
+                            "size": 550,
+                            "sizes": []
+                        },
+                        "flex_justify_content": "center",
+                        "flex_align_items": "center",
+                        "flex_gap": {
+                            "column": "10",
+                            "row": "10",
+                            "isLinked": true,
+                            "unit": "px",
+                            "size": 10
+                        },
+                        "background_background": "classic",
+                        "background_image": {
+                            "id": 299,
+                            "url": "https:\/\/kits.typstd.com\/psykit\/wp-content\/uploads\/sites\/16\/2023\/10\/young-couple-during-a-psychological-session-with-p-2021-12-09-03-19-30-utc-1920x1281-1.webp",
+                            "alt": "",
+                            "source": "library",
+                            "size": ""
+                        },
+                        "background_size": "cover",
+                        "background_overlay_opacity": {
+                            "unit": "px",
+                            "size": 0.4,
+                            "sizes": []
+                        },
+                        "border_radius": {
+                            "unit": "px",
+                            "top": "25",
+                            "right": "25",
+                            "bottom": "25",
+                            "left": "25",
+                            "isLinked": true
+                        },
+                        "__globals__": {
+                            "background_overlay_color": "globals\/colors?id=primary"
+                        },
+                        "boxed_width": {
+                            "unit": "px",
+                            "size": 790,
+                            "sizes": []
+                        }
+                    },
+                    "elements": [],
+                    "isInner": true,
+                    "elType": "container"
+                },
+                {
+                    "id": "9c50944",
+                    "settings": {
+                        "editor": "<!-- wp:paragraph --><!-- \/wp:paragraph --><!-- wp:paragraph --><!-- \/wp:paragraph --><!-- wp:paragraph -->\n<p>Furthermore, a balanced diet can help reduce the risk of chronic diseases, including heart disease, cancer, and stroke. Consuming a variety of fruits, vegetables, whole grains, lean proteins, and healthy fats provides your body with the necessary antioxidants and phytochemicals that combat oxidative stress and inflammation.<\/p>\n<!-- \/wp:paragraph --><!-- wp:paragraph -->\n<p>In addition to physical health, nutrition plays a significant role in mental well-being. Nutrient-rich foods support brain function and can improve mood and cognitive performance. On the other hand, a diet high in processed foods and sugar may lead to mood swings, fatigue, and cognitive decline.<\/p>\n<!-- \/wp:paragraph --><!-- wp:paragraph -->\n<p>To achieve a balanced diet, focus on consuming a variety of foods from all food groups. Prioritize fruits and vegetables, whole grains, lean proteins, and healthy fats while minimizing processed and sugary items. Pay attention to portion control and stay hydrated with plenty of water.<\/p>\n<!-- \/wp:paragraph --><!-- wp:paragraph -->\n<p>In conclusion, a balanced diet is the key to good health. It provides your body with essential nutrients, supports weight management, and reduces the risk of chronic diseases. Make informed choices about what you eat to enjoy the numerous benefits of a well-rounded diet.<\/p>\n<!-- \/wp:paragraph -->",
+                        "align": "justify",
+                        "_margin": {
+                            "unit": "px",
+                            "top": "20",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "__globals__": {
+                            "text_color": "globals\/colors?id=accent",
+                            "typography_typography": "globals\/typography?id=fae77b1",
+                            "drop_cap_primary_color": "globals\/colors?id=primary",
+                            "drop_cap_typography_typography": "globals\/typography?id=primary"
+                        }
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "text-editor",
+                    "elType": "widget"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        }
+    ]
+}

@@ -38,8 +38,8 @@ const Navbar = () => {
         <nav className="nav z-[999]">
           <div className="logo">
             <Link to="/">
-              <img className=" black-logo" src={logo} alt="logo" />
-              <img className=" white-logo" src={whiteLogo} alt="logo" />
+              <img className="black-logo" src={logo} alt="logo" />
+              <img className="white-logo" src={whiteLogo} alt="logo" />
             </Link>
           </div>
           <ul>
@@ -126,7 +126,7 @@ const Navbar = () => {
               </HashLink>
             </li>
             <li>
-              <HashLink to={"/#contact"}>
+              <HashLink className="bg-[#f58020] text-white font-medium px-4 py-2 ml-6" to={"/#contact"}>
                 Contact
               </HashLink>
             </li>
