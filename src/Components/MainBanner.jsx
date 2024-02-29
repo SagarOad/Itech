@@ -104,7 +104,7 @@ const MainBanner = () => {
               type="video/mp4"
               src="https://video-previews.elements.envatousercontent.com/h264-video-previews/fcb18010-f6be-43b0-80d6-75cbee4ec03e/27659685.mp4"
             />
-            <div className="video-bg-shape2 absolute z-[-1] opacity-50 top-0 shadow-xl bg-[#f58020f3] h-[100%] right-0 w-[620px]"></div>
+            <div className="video-bg-shape2 absolute z-[-1] opacity-90 top-0 shadow-xl bg-[#ffffff] h-[100%] right-0 w-[590px]"></div>
             {/* <Lottie
               className="w-auto opacity-80 md:w-[860px] mt-[0px]"
               animationData={anime}
