@@ -15,14 +15,19 @@ const PriceTabs = () => {
   const [activeTab, setActiveTab] = useState(0);
 
   return (
-    <div className=" px-8" id="our-work">
+    <div className=" container py-16 mx-auto px-8" id="our-work">
+      <h2 className="services2-heading mix-blend-multiply mb-2 text-3xl tracking-normal md:text-[3.5rem] text-[#f58020] font-[poppins] opacity-95 font-bold leading-[70px] md:text-center">Pricing</h2>
       <div className=" flex flex-col justify-center  p-4 ml-auto font-bold items-center">
       
       </div>
       <div className="flex flex-wrap justify-evenly md:px-4 px-0 py-4 md:mx-auto w-[100%] mb-12 z-30 rounded-full">
         <button
-          className={`${activeTab === 0 ? "bg-[#292A33] text-white" : ""} 
-                rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383] focus:bg-[#292A33] focus:text-white`}
+          className={`${
+            activeTab === 0
+              ? "bg-[#e4563aef] font-[poppins] text-white"
+              : ""
+          } 
+               py-3 px-4 m-2 text-[14px] font-[poppins] lg:text-[18px] text-[#838383]`}
           type="button"
           onClick={() => {
             setActiveTab(0);
@@ -31,8 +36,8 @@ const PriceTabs = () => {
           Website Design
         </button>
         <button
-          className={`${activeTab === 1 ? "bg-[#292A33] text-white" : ""} 
-                rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383] focus:bg-[#292A33] focus:text-white`}
+          className={`${activeTab === 1 ? " bg-[#e4563aef] font-[poppins] text-white" : ""} 
+          py-3 px-4 m-2 text-[14px] font-[poppins] lg:text-[18px] text-[#838383]`}
           type="button"
           onClick={() => {
             setActiveTab(1);
@@ -41,8 +46,8 @@ const PriceTabs = () => {
           Logo
         </button>
         <button
-          className={`${activeTab === 2 ? "bg-[#292A33] text-white" : ""} 
-                rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383] focus:bg-[#292A33] focus:text-white`}
+          className={`${activeTab === 2 ? "bg-[#e4563aef] font-[poppins] text-white" : ""} 
+          py-3 px-4 m-2 text-[14px] font-[poppins] lg:text-[18px] text-[#838383]`}
           type="button"
           onClick={() => {
             setActiveTab(2);
@@ -51,8 +56,8 @@ const PriceTabs = () => {
           SEO
         </button>
         <button
-          className={`${activeTab === 3 ? "bg-[#292A33] text-white" : ""} 
-                rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383] focus:bg-[#292A33] focus:text-white`}
+          className={`${activeTab === 3 ? " bg-[#292A33] bg-[#e4563aef] font-[poppins] text-white" : ""} 
+          py-3 px-4 m-2 text-[14px] font-[poppins] lg:text-[18px] text-[#838383]`}
           type="button"
           onClick={() => {
             setActiveTab(3);
@@ -61,8 +66,8 @@ const PriceTabs = () => {
           Print
         </button>
         <button
-          className={`${activeTab === 4 ? "bg-[#292A33] text-white" : ""} 
-                rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383] focus:bg-[#292A33] focus:text-white`}
+          className={`${activeTab === 4 ? " bg-[#e4563aef] font-[poppins] text-white" : ""} 
+          py-3 px-4 m-2 text-[14px] font-[poppins] lg:text-[18px] text-[#838383]`}
           type="button"
           onClick={() => {
             setActiveTab(4);
@@ -71,8 +76,8 @@ const PriceTabs = () => {
           Branding
         </button>
         <button
-          className={`${activeTab === 5 ? "bg-[#292A33] text-white" : ""} 
-                rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383] focus:bg-[#292A33] focus:text-white`}
+          className={`${activeTab === 5 ? " bg-[#e4563aef] font-[poppins] text-white" : ""} 
+          py-3 px-4 m-2 text-[14px] font-[poppins] lg:text-[18px] text-[#838383]`}
           type="button"
           onClick={() => {
             setActiveTab(5);
@@ -82,8 +87,8 @@ const PriceTabs = () => {
         </button>
 
         <button
-          className={`${activeTab === 6 ? "bg-[#292A33] text-white" : ""} 
-                rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383] focus:bg-[#292A33] focus:text-white`}
+          className={`${activeTab === 6 ? " bg-[#e4563aef] font-[poppins] text-white" : ""} 
+          py-3 px-4 m-2 text-[14px] font-[poppins] lg:text-[18px] text-[#838383]`}
           type="button"
           onClick={() => {
             setActiveTab(6);
@@ -93,8 +98,8 @@ const PriceTabs = () => {
         </button>
 
         <button
-          className={`${activeTab === 7 ? "bg-[#292A33] text-white" : ""} 
-                rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383] focus:bg-[#292A33] focus:text-white`}
+          className={`${activeTab === 7 ? " bg-[#e4563aef] font-[poppins] text-white" : ""} 
+          py-3 px-4 m-2 text-[14px] font-[poppins] lg:text-[18px] text-[#838383]`}
           type="button"
           onClick={() => {
             setActiveTab(7);
@@ -103,8 +108,8 @@ const PriceTabs = () => {
           Animation
         </button>
         <button
-          className={`${activeTab === 8 ? "bg-[#292A33] text-white" : ""} 
-                rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383] focus:bg-[#292A33] focus:text-white`}
+          className={`${activeTab === 8 ? " bg-[#e4563aef] font-[poppins] text-white" : ""} 
+          py-3 px-4 m-2 text-[14px] font-[poppins] lg:text-[18px] text-[#838383]`}
           type="button"
           onClick={() => {
             setActiveTab(8);
@@ -113,8 +118,8 @@ const PriceTabs = () => {
           Informative Website
         </button>
         <button
-          className={`${activeTab === 9 ? "bg-[#292A33] text-white" : ""} 
-                rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383] focus:bg-[#292A33] focus:text-white`}
+          className={`${activeTab === 9 ? " bg-[#e4563aef] font-[poppins] text-white" : ""} 
+          py-3 px-4 m-2 text-[14px] font-[poppins] lg:text-[18px] text-[#838383]`}
           type="button"
           onClick={() => {
             setActiveTab(9);

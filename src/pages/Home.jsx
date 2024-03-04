@@ -15,7 +15,7 @@ import { Helmet } from 'react-helmet';
 import SkillTabs from '../Components/SkillTabs';
 import Process from '../Components/Process';
 import LineBanner from '../Components/LineBanner';
-
+import PriceTabs from '../Components/PriceTabs';
 const Home = () => {
   useEffect(() => {
     // Set meta tags dynamically
@@ -57,13 +57,13 @@ document.head.appendChild(colonicalTag)
       {/* <Features /> */}
       <OurServices />
       <SkillTabs />
+      <LineBanner />
       <ProjectTabs />
       <Branding />
       <Process />
-      <LineBanner />
       {/* <Anime /> */}
       <ContactSection />
-      <Pricing />
+      <PriceTabs />
       {/* <Map /> */}
       {/* <TeamSlider /> */}
       <Footer />

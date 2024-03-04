@@ -65,25 +65,26 @@ const MainBanner = () => {
       <div className=" container mx-auto">
         <div className=" pt-20 flex flex-wrap flex-col md:flex-row items-center">
           <div className="flex flex-col w-full py-32 xl:w-[50%] justify-center lg:items-start ">
-            <h1 className="main-banner-heading relative mt-4 mb-5 text-[5rem] sm:text-5xl md:text-[3.2rem] text-white font-[poppins] font-medium md:text-left">
-              <span className="flex justify-center absolute left-60 top-[-33px]">
-                {/* <img src={shineSvt} className="w-[80px]" /> */}
-              </span>{" "}
+            <h1 className="main-banner-heading relative mt-4 mb-4 text-[5rem] sm:text-5xl md:text-[6rem] text-white font-[BirdLove] font-medium md:text-left">
               Grow with Our
-              <br />
-              <span className="  text-[white] tracking-[1px] text-[16rem] font-[poppins] font-bold">
-                <span className=" opacity-50 mt">Tech</span> Magic
+            </h1>
+            <br />
+            <h1 className="main-banner-heading main-banner-heading relative mt-4 mb-5 text-[5rem] sm:text-5xl md:text-[5rem] text-white font-medium md:text-left">
+              <span className="  text-[white] tracking-[1px] text-[15rem] font-[poppins] font-bold">
+                <span className=" opacity-50 mt">Tech</span>
+                <br />
+                Magic
               </span>
             </h1>
 
-            <p className="leading-normal text-white opacity-95 pr-20 font-sans font-medium text-[20px] md:text-[20px] mb-8 md:text-left">
+            {/* <p className="leading-normal text-white opacity-95 pr-20 font-sans font-medium text-[20px] md:text-[20px] mb-8 md:text-left">
               Unlock digital excellence with us. Elevate your brand's potential
               and achieve success in the digital realm.
-            </p>
+            </p> */}
             <div className="flex justify-end ">
               <a
                 href="#our-work"
-                className="bg-white rounded-[18px] font-[poppins] mr-0 md:mr-[22px] z-20 text-black md:py-3 py-2 md:px-5 px-3 font-medium text-[18px] md:text-[19px]"
+                className="bg-[#e4563aef] mx-4 font-[poppins] mr-0 md:mr-[22px] z-20 text-white md:py-3 py-2 md:px-5 px-3 font-medium text-[18px] md:text-[19px]"
               >
                 Get Started
               </a>

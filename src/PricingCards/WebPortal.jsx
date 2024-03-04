@@ -46,18 +46,18 @@ const WebPortal = () => {
 
 
  <div>
-      <div class=" px-8 gap-10 flex justify-center text-zinc-800 mt-10" style={{height:"600px"}}>
-          <div class="flex flex-col items-center bg-gradient-to-br from-blue-100 via-orange-100 to-purple-10 p-8 rounded-lg shadow-lg relative border-4 border-orange-200 max-w-sm hover:scale-105 transition-all ease-in-out" style={{height:"500px"}}>
+      <div class=" px-4 gap-10 flex justify-center text-zinc-800 mt-10" style={{height:"600px"}}>
+          <div class="flex flex-col items-center bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl relative  w-full hover:scale-105 transition-all ease-in-out" style={{height:"500px"}}>
            
             <div>
               <div class="flex gap-4 justify-center">
-                <p class="font-extrabold text-3xl mb-2">Startup Web Portal</p>
+                <p class="font-medium font-[poppins] text-2xl mb-2">Startup Web Portal</p>
               </div>
               {/* <p class="opacity-60 text-center">For agencies and businesses</p> */}
               <p class="opacity-60 text-center"></p>
               <div class="flex gap-4 justify-center">
                 <div class="flex flex-col items-center my-8">
-                  <p class="font-extrabold text-4xl">$4999.00</p>
+                  <p class="font-extrabold text-[#e4563aef] font-[poppins] text-4xl">$4999.00</p>
                  
                 </div>
               </div>
@@ -102,7 +102,7 @@ const WebPortal = () => {
 
 
             <div class="flex justify-center mt-8 ">
-              <button onClick={()=>setOpenModal(true)} class="px-4 py-2 border-[#f58020] border-4 hover:bg-violet-100 rounded-xl">
+              <button onClick={()=>setOpenModal(true)} class="get-start-btn w-full">
                 Get Started
               </button>
             </div>
@@ -113,18 +113,18 @@ const WebPortal = () => {
 
 
     <div>
-      <div class=" px-8 gap-10 flex justify-center text-zinc-800 mt-10" style={{height:"600px"}}>
-          <div class="flex flex-col items-center bg-gradient-to-br from-blue-100 via-orange-100 to-purple-10 p-8 rounded-lg shadow-lg relative border-4 border-orange-200 max-w-sm hover:scale-105 transition-all ease-in-out" style={{height:"500px"}}>
+      <div class=" px-4 gap-10 flex justify-center text-zinc-800 mt-10" style={{height:"600px"}}>
+          <div class="flex flex-col items-center bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl relative  w-full hover:scale-105 transition-all ease-in-out" style={{height:"500px"}}>
            
             <div>
               <div class="flex gap-4 justify-center">
-                <p class="font-extrabold text-3xl mb-2">Web Portal Plus</p>
+                <p class="font-medium font-[poppins] text-2xl mb-2">Web Portal Plus</p>
               </div>
               {/* <p class="opacity-60 text-center">For agencies and businesses</p> */}
               <p class="opacity-60 text-center"></p>
               <div class="flex gap-4 justify-center">
                 <div class="flex flex-col items-center my-8">
-                  <p class="font-extrabold text-4xl">$7999.00</p>
+                  <p class="font-extrabold text-[#e4563aef] font-[poppins] text-4xl">$7999.00</p>
                  
                 </div>
               </div>
@@ -169,7 +169,7 @@ const WebPortal = () => {
 
 
             <div class="flex justify-center mt-8 ">
-              <button onClick={()=>setOpenModal(true)} class="px-4 py-2 border-[#f58020] border-4 hover:bg-violet-100 rounded-xl">
+              <button onClick={()=>setOpenModal(true)} class="get-start-btn w-full">
                 Get Started
               </button>
             </div>
@@ -186,18 +186,18 @@ const WebPortal = () => {
 <div className='md:flex justify-center hidden'>
 
 <div>
-      <div class=" px-8 gap-10 flex justify-center text-zinc-800 mt-10" style={{height:"600px"}}>
-          <div class="flex flex-col items-center bg-gradient-to-br from-blue-100 via-orange-100 to-purple-10 p-8 rounded-lg shadow-lg relative border-4 border-orange-200 max-w-sm hover:scale-105 transition-all ease-in-out" style={{height:"500px"}}>
+      <div class=" px-4 gap-10 flex justify-center text-zinc-800 mt-10" style={{height:"600px"}}>
+          <div class="flex flex-col items-center bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl relative  w-full hover:scale-105 transition-all ease-in-out" style={{height:"500px"}}>
            
             <div>
               <div class="flex gap-4 justify-center">
-                <p class="font-extrabold text-3xl mb-2">Startup Web Portal</p>
+                <p class="font-medium font-[poppins] text-2xl mb-2">Startup Web Portal</p>
               </div>
               {/* <p class="opacity-60 text-center">For agencies and businesses</p> */}
               <p class="opacity-60 text-center"></p>
               <div class="flex gap-4 justify-center">
                 <div class="flex flex-col items-center my-8">
-                  <p class="font-extrabold text-4xl">$4999.00</p>
+                  <p class="font-extrabold text-[#e4563aef] font-[poppins] text-4xl">$4999.00</p>
                  
                 </div>
               </div>
@@ -242,7 +242,7 @@ const WebPortal = () => {
 
 
             <div class="flex justify-center mt-8 ">
-              <button onClick={()=>setOpenModal(true)} class="px-4 py-2 border-[#f58020] border-4 hover:bg-violet-100 rounded-xl">
+              <button onClick={()=>setOpenModal(true)} class="get-start-btn w-full">
                 Get Started
               </button>
             </div>
@@ -253,18 +253,18 @@ const WebPortal = () => {
 
 
     <div>
-      <div class=" px-8 gap-10 flex justify-center text-zinc-800 mt-10" style={{height:"600px"}}>
-          <div class="flex flex-col items-center bg-gradient-to-br from-blue-100 via-orange-100 to-purple-10 p-8 rounded-lg shadow-lg relative border-4 border-orange-200 max-w-sm hover:scale-105 transition-all ease-in-out" style={{height:"500px"}}>
+      <div class=" px-4 gap-10 flex justify-center text-zinc-800 mt-10" style={{height:"600px"}}>
+          <div class="flex flex-col items-center bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl relative  w-full hover:scale-105 transition-all ease-in-out" style={{height:"500px"}}>
            
             <div>
               <div class="flex gap-4 justify-center">
-                <p class="font-extrabold text-3xl mb-2">Web Portal Plus</p>
+                <p class="font-medium font-[poppins] text-2xl mb-2">Web Portal Plus</p>
               </div>
               {/* <p class="opacity-60 text-center">For agencies and businesses</p> */}
               <p class="opacity-60 text-center"></p>
               <div class="flex gap-4 justify-center">
                 <div class="flex flex-col items-center my-8">
-                  <p class="font-extrabold text-4xl">$7999.00</p>
+                  <p class="font-extrabold text-[#e4563aef] font-[poppins] text-4xl">$7999.00</p>
                  
                 </div>
               </div>
@@ -309,7 +309,7 @@ const WebPortal = () => {
 
 
             <div class="flex justify-center mt-8 ">
-              <button onClick={()=>setOpenModal(true)} class="px-4 py-2 border-[#f58020] border-4 hover:bg-violet-100 rounded-xl">
+              <button onClick={()=>setOpenModal(true)} class="get-start-btn w-full">
                 Get Started
               </button>
             </div>

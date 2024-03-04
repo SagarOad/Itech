@@ -1,15 +1,20 @@
 import shineSvt from "../assets/header-illustration.svg";
-import wave from "../assets/vectors/wave.png";
+import cube5 from "../assets/Untitled-5-03.png";
 
 const OurServices = () => {
   return (
     <div
       id="services"
-      className="w-full pt-16 relative px-8 md:px-24 mx-auto my-8"
+      className="w-full pt-12 relative px-8 md:px-24 mx-auto my-8"
     >
-      <img src={wave} className="absolute bottom-[250px] opacity-[6%] z-[0]" />
+      <img
+        src={cube5}
+        className=" absolute  w-[240px] top-0 left-0"
+      />
+
+      {/* <img src={wave} className="absolute bottom-[250px] opacity-[6%] z-[0]" /> */}
       <div className="mb-16">
-        <h1 className="main-banner-heading relative mt-4 mb-5 md:text-[2.5rem] text-[#f58020] font-[poppins] font-medium leading-tight md:text-center">
+        <h1 className="main-banner-heading mix-blend-multiply mb-2 text-3xl tracking-normal md:text-[3.5rem] text-[#f58020] font-[poppins] opacity-95 font-bold leading-[70px] md:text-center">
           <span className="flex justify-center absolute left-56 top-[70px]">
             <img src={shineSvt} className="w-[50px] hidden md:visible" />
           </span>

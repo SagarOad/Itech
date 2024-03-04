@@ -51,14 +51,14 @@ const Ux = () => {
     <>
       <Slider {...settings}>
         {/* <div style={{height:"600px"}}>
-          <div class="flex flex-col items-center bg-slate-100 p-8 rounded-lg shadow-lg w-full hover:scale-105 transition-all ease-in-out" style={{height:"500px"}}>
+          <div class="flex flex-col items-center bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl relative  w-full hover:scale-105 transition-all ease-in-out" style={{height:"500px"}}>
             <div>
               <h2 class="font-extrabold text-3xl text-center mb-2">
                 Logo Basic
               </h2>
 
               <div class="flex flex-col items-center my-8">
-                <p class="font-extrabold text-4xl">$35.00</p>
+                <p class="font-extrabold text-[#e4563aef] font-[poppins] text-4xl">$35.00</p>
                 
               </div>
             </div>
@@ -80,14 +80,14 @@ const Ux = () => {
           </div>
         </div>
         <div style={{height:"600px"}}>
-          <div class="flex flex-col items-center bg-slate-100 p-8 rounded-lg shadow-lg w-full hover:scale-105 transition-all ease-in-out" style={{height:"500px"}}>
+          <div class="flex flex-col items-center bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl relative  w-full hover:scale-105 transition-all ease-in-out" style={{height:"500px"}}>
             <div>
               <h2 class="font-extrabold text-3xl text-center mb-2">
                 Logo Plus{" "}
               </h2>
            
               <div class="flex flex-col items-center my-8">
-                <p class="font-extrabold text-4xl">$199.00</p>
+                <p class="font-extrabold text-[#e4563aef] font-[poppins] text-4xl">$199.00</p>
                 
               </div>
             </div>
@@ -113,13 +113,13 @@ const Ux = () => {
           </div>
         </div>
         <div style={{height:"600px"}}>
-          <div class="flex flex-col items-center bg-slate-100 p-8 rounded-lg shadow-lg w-full hover:scale-105 transition-all ease-in-out" style={{height:"500px"}}>
+          <div class="flex flex-col items-center bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl relative  w-full hover:scale-105 transition-all ease-in-out" style={{height:"500px"}}>
             <div>
               <h2 class="font-extrabold text-3xl text-center mb-2">
                 Logo Infinite
               </h2>
               <div class="flex flex-col items-center my-8">
-                <p class="font-extrabold text-4xl">$299.00</p>
+                <p class="font-extrabold text-[#e4563aef] font-[poppins] text-4xl">$299.00</p>
                 
               </div>
             </div>
@@ -148,13 +148,13 @@ const Ux = () => {
         </div>
 
         <div style={{height:"600px"}}>
-          <div class="flex flex-col items-center bg-slate-100 p-8 rounded-lg shadow-lg w-full hover:scale-105 transition-all ease-in-out" style={{height:"500px"}}>
+          <div class="flex flex-col items-center bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl relative  w-full hover:scale-105 transition-all ease-in-out" style={{height:"500px"}}>
             <div>
               <h2 class="font-extrabold text-3xl text-center mb-2">
                 Logo Platinum
               </h2>
               <div class="flex flex-col items-center my-8">
-                <p class="font-extrabold text-4xl">$599.00</p>
+                <p class="font-extrabold text-[#e4563aef] font-[poppins] text-4xl">$599.00</p>
                 
               </div>
             </div>
@@ -184,13 +184,13 @@ const Ux = () => {
           </div>
         </div>
         <div style={{height:"600px"}}>
-          <div class="flex flex-col items-center bg-slate-100 p-8 rounded-lg shadow-lg w-full hover:scale-105 transition-all ease-in-out" style={{height:"500px"}}>
+          <div class="flex flex-col items-center bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl relative  w-full hover:scale-105 transition-all ease-in-out" style={{height:"500px"}}>
             <div>
               <h2 class="font-extrabold text-3xl text-center mb-2">
                 Logo Special
               </h2>
               <div class="flex flex-col items-center my-8">
-                <p class="font-extrabold text-4xl">$29.00</p>
+                <p class="font-extrabold text-[#e4563aef] font-[poppins] text-4xl">$29.00</p>
                 
               </div>
             </div>
@@ -215,18 +215,18 @@ const Ux = () => {
 
 
  <div>
-      <div class=" px-8 gap-10 flex justify-center text-zinc-800 mt-10" style={{height:"600px"}}>
-          <div class="flex flex-col items-center bg-gradient-to-br from-blue-100 via-orange-100 to-purple-10 p-8 rounded-lg shadow-lg relative border-4 border-orange-200 w-full hover:scale-105 transition-all ease-in-out" style={{height:"500px"}}>
+      <div class=" px-4 gap-10 flex justify-center text-zinc-800 mt-10" style={{height:"600px"}}>
+          <div class="flex flex-col items-center bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl relative  w-full hover:scale-105 transition-all ease-in-out" style={{height:"500px"}}>
            
             <div>
               <div class="flex gap-4 justify-center">
-                <p class="font-extrabold text-3xl mb-2">Logo Basic</p>
+                <p class="font-medium font-[poppins] text-2xl mb-2">Logo Basic</p>
               </div>
               {/* <p class="opacity-60 text-center">For agencies and businesses</p> */}
               <p class="opacity-60 text-center"></p>
               <div class="flex gap-4 justify-center">
                 <div class="flex flex-col items-center my-8">
-                  <p class="font-extrabold text-4xl">$35.00</p>
+                  <p class="font-extrabold text-[#e4563aef] font-[poppins] text-4xl">$35.00</p>
                   
                 </div>
               </div>
@@ -241,7 +241,7 @@ const Ux = () => {
 
 
             <div class="flex justify-center mt-8 ">
-              <button onClick={()=>setOpenModal(true)} class="px-4 py-2 border-[#f58020] border-4 hover:bg-violet-100 rounded-xl">
+              <button onClick={()=>setOpenModal(true)} class="get-start-btn w-full">
                 Get Started
               </button>
             </div>
@@ -250,18 +250,18 @@ const Ux = () => {
     </div>
 
     <div>
-      <div class=" px-8 gap-10 flex justify-center text-zinc-800 mt-10" style={{height:"600px"}}>
-          <div class="flex flex-col items-center bg-gradient-to-br from-blue-100 via-orange-100 to-purple-10 p-8 rounded-lg shadow-lg relative border-4 border-orange-200 w-full hover:scale-105 transition-all ease-in-out" style={{height:"500px"}}>
+      <div class=" px-4 gap-10 flex justify-center text-zinc-800 mt-10" style={{height:"600px"}}>
+          <div class="flex flex-col items-center bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl relative  w-full hover:scale-105 transition-all ease-in-out" style={{height:"500px"}}>
            
             <div>
               <div class="flex gap-4 justify-center">
-                <p class="font-extrabold text-3xl mb-2">Logo Plus</p>
+                <p class="font-medium font-[poppins] text-2xl mb-2">Logo Plus</p>
               </div>
               {/* <p class="opacity-60 text-center">For agencies and businesses</p> */}
               <p class="opacity-60 text-center"></p>
               <div class="flex gap-4 justify-center">
                 <div class="flex flex-col items-center my-8">
-                  <p class="font-extrabold text-4xl">$119.00</p>
+                  <p class="font-extrabold text-[#e4563aef] font-[poppins] text-4xl">$119.00</p>
                   
                 </div>
               </div>
@@ -280,7 +280,7 @@ const Ux = () => {
 
 
             <div class="flex justify-center mt-8 ">
-              <button onClick={()=>setOpenModal(true)} class="px-4 py-2 border-[#f58020] border-4 hover:bg-violet-100 rounded-xl">
+              <button onClick={()=>setOpenModal(true)} class="get-start-btn w-full">
                 Get Started
               </button>
             </div>
@@ -289,18 +289,18 @@ const Ux = () => {
     </div>
 
     <div>
-      <div class=" px-8 gap-10 flex justify-center text-zinc-800 mt-10" style={{height:"600px"}}>
-          <div class="flex flex-col items-center bg-gradient-to-br from-blue-100 via-orange-100 to-purple-10 p-8 rounded-lg shadow-lg relative border-4 border-orange-200 w-full hover:scale-105 transition-all ease-in-out" style={{height:"500px"}}>
+      <div class=" px-4 gap-10 flex justify-center text-zinc-800 mt-10" style={{height:"600px"}}>
+          <div class="flex flex-col items-center bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl relative  w-full hover:scale-105 transition-all ease-in-out" style={{height:"500px"}}>
            
             <div>
               <div class="flex gap-4 justify-center">
-                <p class="font-extrabold text-3xl mb-2">Logo Infinite</p>
+                <p class="font-medium font-[poppins] text-2xl mb-2">Logo Infinite</p>
               </div>
               {/* <p class="opacity-60 text-center">For agencies and businesses</p> */}
               <p class="opacity-60 text-center"></p>
               <div class="flex gap-4 justify-center">
                 <div class="flex flex-col items-center my-8">
-                  <p class="font-extrabold text-4xl">$299.00</p>
+                  <p class="font-extrabold text-[#e4563aef] font-[poppins] text-4xl">$299.00</p>
                   
                 </div>
               </div>
@@ -322,7 +322,7 @@ const Ux = () => {
 
 
             <div class="flex justify-center mt-8 ">
-              <button onClick={()=>setOpenModal(true)} class="px-4 py-2 border-[#f58020] border-4 hover:bg-violet-100 rounded-xl">
+              <button onClick={()=>setOpenModal(true)} class="get-start-btn w-full">
                 Get Started
               </button>
             </div>
@@ -331,18 +331,18 @@ const Ux = () => {
     </div>
 
     <div>
-      <div class=" px-8 gap-10 flex justify-center text-zinc-800 mt-10" style={{height:"600px"}}>
-          <div class="flex flex-col items-center bg-gradient-to-br from-blue-100 via-orange-100 to-purple-10 p-8 rounded-lg shadow-lg relative border-4 border-orange-200 w-full hover:scale-105 transition-all ease-in-out" style={{height:"500px"}}>
+      <div class=" px-4 gap-10 flex justify-center text-zinc-800 mt-10" style={{height:"600px"}}>
+          <div class="flex flex-col items-center bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl relative  w-full hover:scale-105 transition-all ease-in-out" style={{height:"500px"}}>
            
             <div>
               <div class="flex gap-4 justify-center">
-                <p class="font-extrabold text-3xl mb-2">Logo Platinum</p>
+                <p class="font-medium font-[poppins] text-2xl mb-2">Logo Platinum</p>
               </div>
               {/* <p class="opacity-60 text-center">For agencies and businesses</p> */}
               <p class="opacity-60 text-center"></p>
               <div class="flex gap-4 justify-center">
                 <div class="flex flex-col items-center my-8">
-                  <p class="font-extrabold text-4xl">$599.00</p>
+                  <p class="font-extrabold text-[#e4563aef] font-[poppins] text-4xl">$599.00</p>
                   
                 </div>
               </div>
@@ -364,7 +364,7 @@ const Ux = () => {
 
 
             <div class="flex justify-center mt-8 ">
-              <button onClick={()=>setOpenModal(true)} class="px-4 py-2 border-[#f58020] border-4 hover:bg-violet-100 rounded-xl">
+              <button onClick={()=>setOpenModal(true)} class="get-start-btn w-full">
                 Get Started
               </button>
             </div>
@@ -374,18 +374,18 @@ const Ux = () => {
 
 
     <div>
-      <div class=" px-8 gap-10 flex justify-center text-zinc-800 mt-10" style={{height:"600px"}}>
-          <div class="flex flex-col items-center bg-gradient-to-br from-blue-100 via-orange-100 to-purple-10 p-8 rounded-lg shadow-lg relative border-4 border-orange-200 w-full hover:scale-105 transition-all ease-in-out" style={{height:"500px"}}>
+      <div class=" px-4 gap-10 flex justify-center text-zinc-800 mt-10" style={{height:"600px"}}>
+          <div class="flex flex-col items-center bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl relative  w-full hover:scale-105 transition-all ease-in-out" style={{height:"500px"}}>
            
             <div>
               <div class="flex gap-4 justify-center">
-                <p class="font-extrabold text-3xl mb-2">Logo Special</p>
+                <p class="font-medium font-[poppins] text-2xl mb-2">Logo Special</p>
               </div>
               {/* <p class="opacity-60 text-center">For agencies and businesses</p> */}
               <p class="opacity-60 text-center"></p>
               <div class="flex gap-4 justify-center">
                 <div class="flex flex-col items-center my-8">
-                  <p class="font-extrabold text-4xl">$29.00</p>
+                  <p class="font-extrabold text-[#e4563aef] font-[poppins] text-4xl">$29.00</p>
                   
                 </div>
               </div>
@@ -398,7 +398,7 @@ const Ux = () => {
               </ul>
 
             <div class="flex justify-center mt-8 ">
-              <button onClick={()=>setOpenModal(true)} class="px-4 py-2 border-[#f58020] border-4 hover:bg-violet-100 rounded-xl">
+              <button onClick={()=>setOpenModal(true)} class="get-start-btn w-full">
                 Get Started
               </button>
             </div>

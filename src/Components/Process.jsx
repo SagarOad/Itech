@@ -4,14 +4,16 @@ import { VscGithubAction } from "react-icons/vsc";
 import { BsRocket } from "react-icons/bs";
 import arrow1 from "../assets/arrow1.jpg"
 import arrow2 from "../assets/arrow2.jpg"
+import cube5 from "../assets/Untitled-5-02.png";
 
 const Process = () => {
   return (
-    <div className="">
+    <div className=" relative">
+      <img src={cube5} className=" absolute top-28 left-[-20px]" />
       <div className=" px-8 container w-[60%] mx-auto">
-        <h1 className="text-[48px] text-center md:text-[2.5rem] text-[#212121] font-[poppins] opacity-95 font-bold leading-tight">
+        <h1 className="text-[48px] md:text-[3.5rem] text-[#f58020] text-center font-[poppins] opacity-95 font-bold leading-tight">
           Transforming Visions Into{""}
-          <span className="mx-4 span-color bg-clip-text text-[#f58020]">
+          <span className="mx-4 span-color bg-clip-text text-[#e4563aef]">
             Reality
           </span>
         </h1>
@@ -21,7 +23,7 @@ const Process = () => {
           best quality work possible.
         </p>
           <video
-            className="w-[700px] mx-auto my-14 border-2 border-[#d7d7d7] shadow-lg relative"
+            className="w-[700px] p-4 mx-auto my-14 border-2 border-[#d7d7d7] shadow-lg relative"
             loop
             autoPlay
             muted

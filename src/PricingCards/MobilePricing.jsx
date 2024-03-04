@@ -41,9 +41,9 @@ const MobilePricing = () => {
     <>
       <div>
         <div className=" ">
-          <div class="py-8 px-4 mx-auto sm:py-16 lg:px-6 bg-gradient-to-br from-blue-100 via-orange-100 to-purple-10 p-8 rounded-lg shadow-lg  mt-20">
+          <div class="flex flex-col items-center bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl relative  w-full hover:scale-105 transition-all ease-in-out">
             <div class="mx-auto max-w-screen-sm text-center">
-              <h2 class="mb-4 text-3xl tracking-tight font-bold leading-tight text-black">
+              <h2 class="font-medium font-[poppins] text-2xl mb-2">
                 Unlock Exclusive Pricing Today!
               </h2>
               <p class="mb-6 text-black md:text-lg">
@@ -52,7 +52,7 @@ const MobilePricing = () => {
 
               <a
                 href="tel:+13015017152"
-                class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-[#f58020] hover:bg-[#f58020bd] focus:ring-4 focus:ring-[#f58020a5] "
+                class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white"
               >
                 Call Us
                 <svg

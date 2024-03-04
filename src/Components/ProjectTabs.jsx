@@ -10,9 +10,9 @@ const ProjectTabs = () => {
   const [activeTab, setActiveTab] = useState(0);
   const [openModal, setOpenModal] = useState();
   return (
-    <div className="" id="our-work">
+    <div className=" py-20" id="our-work">
       <div className=" px-8 container w-[60%] mx-auto">
-        <h1 className="services2-heading relative mt-4 md:text-[2.5rem] text-black font-[poppins] font-medium leading-tight md:text-center">
+        <h1 className="services2-heading mix-blend-multiply mb-2 text-3xl tracking-normal md:text-[3.5rem] text-[#f58020] font-[poppins] opacity-95 font-bold leading-[70px] md:text-center">
           Our
           <span className="mx-4 span-color bg-clip-text text-[#f58020]">
             Work
@@ -36,10 +36,10 @@ const ProjectTabs = () => {
           <button
             className={`${
               activeTab === 0
-                ? "bg-[#292A33] bg-gradient-to-r from-orange-500 to-orange-400 text-white"
+                ? "bg-[#292A33] bg-[#e4563aef] text-white"
                 : ""
             } 
-                rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383]`}
+                 py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383]`}
             type="button"
             onClick={() => {
               setActiveTab(0);
@@ -50,10 +50,10 @@ const ProjectTabs = () => {
           <button
             className={`${
               activeTab === 1
-                ? "bg-[#292A33] bg-gradient-to-r from-orange-500 to-orange-400 text-white"
+                ? "bg-[#292A33] bg-[#e4563aef] text-white"
                 : ""
             } 
-                rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383]`}
+               py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383]`}
             type="button"
             onClick={() => {
               setActiveTab(1);
@@ -65,10 +65,10 @@ const ProjectTabs = () => {
           <button
             className={`${
               activeTab === 2
-                ? "bg-[#292A33] bg-gradient-to-r from-orange-500 to-orange-400 text-white"
+                ? "bg-[#292A33] bg-[#e4563aef] text-white"
                 : ""
             } 
-                rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383]`}
+                py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383]`}
             type="button"
             onClick={() => {
               setActiveTab(2);
@@ -80,10 +80,10 @@ const ProjectTabs = () => {
           <button
             className={`${
               activeTab === 3
-                ? "bg-[#292A33] bg-gradient-to-r from-orange-500 to-orange-400 text-white"
+                ? "bg-[#292A33] bg-[#e4563aef] text-white"
                 : ""
             } 
-                rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383]`}
+                 py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383]`}
             type="button"
             onClick={() => {
               setActiveTab(3);
@@ -95,10 +95,10 @@ const ProjectTabs = () => {
           <button
             className={`${
               activeTab === 4
-                ? "bg-[#292A33] bg-gradient-to-r from-orange-500 to-orange-400 text-white"
+                ? "bg-[#292A33] bg-[#e4563aef] text-white"
                 : ""
             } 
-                rounded-full py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383]`}
+                 py-3 px-4 m-2 text-[14px] lg:text-[18px] text-[#838383]`}
             type="button"
             onClick={() => {
               setActiveTab(4);

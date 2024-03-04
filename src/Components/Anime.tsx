@@ -20,7 +20,7 @@ const Anime = () => {
 
           <img src={arrow} className="absolute left-[0px] lg:left-[-54px] rotate-[151deg] scale-x-[-1] top-[330px] lg:top-8 w-[300px] lg:w-[700px]" />
         </div>
-        <div className="mob-svg-container relative md:w-[40%] h-[430px] bg-[#f58020] flex justify-center">
+        <div className="mob-svg-container relative md:w-[40%] h-[430px] flex justify-center">
           <video
             className="w-[700px] left-0 lg:left-[-100px] lg:top-[-40px] shadow-lg relative md:absolute"
             loop
