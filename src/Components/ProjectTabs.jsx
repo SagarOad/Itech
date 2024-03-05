@@ -13,10 +13,7 @@ const ProjectTabs = () => {
     <div className=" py-20" id="our-work">
       <div className=" px-8 container w-[60%] mx-auto">
         <h1 className="services2-heading mix-blend-multiply mb-2 text-3xl tracking-normal md:text-[3.5rem] text-[#f58020] font-[poppins] opacity-95 font-bold leading-[70px] md:text-center">
-          Our
-          <span className="mx-4 span-color bg-clip-text text-[#f58020]">
-            Work
-          </span>
+          Portfolio
         </h1>
         <div className=" flex flex-col justify-center  p-4 ml-auto font-bold items-center">
           <h1 className="leading-normal text-[#4e4e4e] font-[poppins] text-center font-[300] text-[18px] md:text-[30px]">

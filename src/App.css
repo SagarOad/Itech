@@ -1675,6 +1675,55 @@ a.my-2.block.border-b.border-gray-100.py-1.font-semibold.text-gray-500.hover\:te
 .video-bg-shape2 {
   border-radius: 70% 30% 33% 67% / 37% 28% 72% 63%;
 }
+.service-banner-shape {
+  background-image: linear-gradient(120deg, #f58020 0%, #e4563aef 100%);
+  border: 1px solid white;
+  border-radius: 70% 30% 33% 67% / 37% 28% 72% 63% !important;
+  height: 386px;
+  display: flex;
+  align-items: end;
+}
+.service-banner-shape1 {
+  background-image: linear-gradient(120deg, #f58020 0%, #e4563aef 100%);
+  border: 1px solid white;
+  border-radius: 45% 54% 63% 37% / 45% 25% 75% 54% !important;
+  height: 386px;
+  display: flex;
+  align-items: end;
+}
+.service-banner-shape2 {
+  background-image: linear-gradient(120deg, #f58020 0%, #e4563aef 100%);
+  border: 1px solid white;
+  border-radius: 45% 55% 63% 37% / 46% 73% 27% 54% !important;
+  height: 386px;
+  display: flex;
+  align-items: end;
+}
+.service-banner-shape3 {
+  background-image: linear-gradient(120deg, #f58020 0%, #e4563aef 100%);
+  border: 1px solid white;
+  height: 386px;
+  border-radius: 38% 55% 61% 34% / 52% 60% 34% 43% !important;;
+  display: flex;
+  align-items: end;
+}
+.service-banner-shape4 {
+  background-image: linear-gradient(120deg, #f58020 0%, #e4563aef 100%);
+  border: 1px solid white;
+  height: 386px;
+  border-radius: 60% 36% 34% 61% / 66% 48% 47% 30% !important;
+  display: flex;
+  align-items: end;
+}
+.service-banner-shape5 {
+  background-image: linear-gradient(120deg, #f58020 0%, #e4563aef 100%);
+  border: 1px solid white;
+  height: 386px;
+  border-radius: 25% 70% 53% 40% / 50% 55% 40% 46% !important;
+  display: flex;
+  align-items: end;
+}
+
 
 .video-bg-shape1 {
   border-radius: 70% 30% 33% 67% / 37% 28% 72% 63%;
@@ -1684,6 +1733,9 @@ span.bg-white.text-black {
   /* mix-blend-mode: plus-lighter; */
 }
 
+.main-banner-heading {
+  line-height: 83px !important;
+}
 .main-banner-heading {
   line-height: 83px !important;
 }
