@@ -82,11 +82,17 @@ const MainBanner = () => {
               and achieve success in the digital realm.
             </p> */}
             <div className="flex justify-end ">
+            <button
+              onClick={() => {
+                setOpenModal(true);
+              }}
+              className="bg-[#e4563aef] mx-4 font-[poppins] mr-0 md:mr-[22px] z-20 text-white md:py-3 py-2 md:px-5 px-3 font-medium text-[18px] md:text-[19px]"
+            >Get Started</button>
               <a
                 href="#our-work"
-                className="bg-[#e4563aef] mx-4 font-[poppins] mr-0 md:mr-[22px] z-20 text-white md:py-3 py-2 md:px-5 px-3 font-medium text-[18px] md:text-[19px]"
+                className=""
               >
-                Get Started
+                
               </a>
               {/* <NavLink to="/about">
                 <button className="bg-[#212121] mr-0 md:mr-[22px] z-20 text-white md:py-3 py-2 md:px-5 px-3 rounded-full font-sans font-medium text-[18px] ml-3 md:text-[19px]">
