@@ -10,7 +10,7 @@ const Process = () => {
   return (
     <div className=" relative pb-12">
       <img src={cube5} className=" absolute top-28 left-[-20px]" />
-      <div className=" px-8 container w-[60%] mx-auto">
+      <div className=" px-8 md:container md:w-[60%] mx-auto">
         <h1 className="text-[48px] md:text-[3.5rem] text-[#f58020] text-center font-[poppins] opacity-95 font-bold leading-tight">
           Transforming Visions Into{""}
           <span className="mx-4 span-color bg-clip-text text-[#e4563aef]">
@@ -36,7 +36,7 @@ const Process = () => {
       <img src={arrow2} className="bg-black absolute w-[230px] top-12 right-[400px]" />
 
         <div className="grid grid-cols-12">
-          <div className="col-span-4 flex p-12 flex-col justify-center items-center">
+          <div className="col-span-12 md:col-span-4 flex p-12 flex-col justify-center items-center">
             <MdScreenSearchDesktop className=" text-[86px] mb-1 text-[#f58020]" />
             <h2 className="text-black text-center text-[26px] font-[nexa] mb-4">
               Initial Phase
@@ -47,7 +47,7 @@ const Process = () => {
               shining diamond.
             </p>
           </div>
-          <div className="col-span-4 flex p-12 flex-col justify-center items-center">
+          <div className="col-span-12 md:col-span-4 flex p-12 flex-col justify-center items-center">
             <VscGithubAction className=" text-[86px] mb-1 text-[#f58020]" />
             <h2 className="text-black text-center text-[26px] font-[nexa] mb-4">
               Executive
@@ -57,7 +57,7 @@ const Process = () => {
               machines. Coming up with brilliant products is our habit.
             </p>
           </div>
-          <div className="col-span-4 flex p-12 flex-col justify-center items-center">
+          <div className="col-span-12 md:col-span-4 flex p-12 flex-col justify-center items-center">
             <BsRocket className=" text-[86px] mb-1 text-[#f58020]" />
             <h2 className="text-black text-center text-[26px] font-[nexa] mb-4">
               Delivery

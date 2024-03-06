@@ -54,11 +54,11 @@ const GraphicsDesign = () => {
         className="bg-[#F8F6F2] leading-normal tracking-normal text-indigo-400 bg-cover bg-fixed"
       >
         <Navbar />
-        <div className=" container mx-auto">
+        <div className=" md:container mx-auto">
           <div className=" pt-48 pb-32">
             <div className="px-8 md:px-24  flex flex-wrap flex-col md:flex-row items-center">
               <div className="flex flex-col w-full xl:w-[60%] justify-center lg:items-start ">
-                <h1 className="main-banner-heading mix-blend-multiply mb-2 text-3xl tracking-normal md:text-[4rem] text-[#f58020] font-[poppins] opacity-95 font-bold leading-[70px] md:text-left">
+                <h1 className="main-banner-heading mix-blend-multiply mb-2 text-5xl tracking-normal md:text-[4rem] text-[#f58020] font-[poppins] opacity-95 font-bold md:leading-[70px] md:text-left">
                   <span className="flex justify-center absolute left-44 top-[-33px]">
                     {/* <img src={shineSvt} className="w-[80px]" /> */}
                   </span>{" "}
@@ -71,7 +71,7 @@ const GraphicsDesign = () => {
                   </span>
                 </h1>
 
-                <p className="leading-normal text-[#212121] opacity-75 pr-20 font-sans font-thin text-[20px] md:text-[20px] mb-8 md:text-left">
+                <p className="leading-normal text-[#212121] opacity-75 md:pr-20 font-sans font-thin text-[20px] md:text-[20px] mb-8 md:text-left">
                   Graphic Design is the art of creating visual concepts using
                   images and text to communicate ideas that inspire and inform.
                   Graphic design service can help bussinesses of all sizes to
@@ -97,7 +97,7 @@ const GraphicsDesign = () => {
             </div>
 
             <div className="grid grid-cols-12">
-              <div className="xl:col-span-3 flex flex-col justify-center items-center col-span-12 p-4 bg-white rounded-[26px] mr-6">
+              <div className="xl:col-span-3 flex flex-col justify-center items-center col-span-12 p-4 bg-white rounded-[26px] mb-4 md:mb-0 md:mr-6">
                 <img src={gd2} className="rounded-[26px] w-[300px]" />
 
                 <p className="leading-normal mt-3 text-black font-[poppins] text-center font-[300] text-[18px] md:text-[22px]">

@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 const VideoEditingTemplate = () => {
   return (
-    <div className="px-8 flex flex-wrap flex-col md:flex-row items-center">
-      <div className="flex flex-col w-full py-24 pr-12 xl:w-[60%] justify-center lg:items-start ">
+    <div className="md:px-8 flex flex-wrap flex-col md:flex-row items-center">
+      <div className="flex flex-col w-full py-8 md:py-24 md:pr-12 xl:w-[60%] justify-center lg:items-start">
         <h2 className="main-banner-heading relative mt-4 mb-3 md:text-[2.5rem] text-[#f58020] font-[poppins] font-medium leading-tight md:text-center">
           Video Editing
         </h2>

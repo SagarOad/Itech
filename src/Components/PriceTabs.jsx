@@ -15,9 +15,9 @@ const PriceTabs = () => {
   const [activeTab, setActiveTab] = useState(0);
 
   return (
-    <div className=" container py-16 mx-auto px-8" id="our-work">
-      <h2 className="services2-heading mix-blend-multiply mb-2 text-3xl tracking-normal md:text-[3.5rem] text-[#f58020] font-[poppins] opacity-95 font-bold leading-[70px] md:text-center">Pricing</h2>
-      <div className=" flex flex-col justify-center  p-4 ml-auto font-bold items-center">
+    <div id="pricing" className=" md:container py-16 mx-auto px-8">
+      <h2 className="services2-heading mix-blend-multiply mb-2 text-3xl tracking-normal md:text-[3.5rem] text-[#f58020] font-[poppins] opacity-95 font-bold leading-[70px] text-center md:text-center">Pricing</h2>
+      <div className="  flex-col hidden md:flex justify-center  p-4 ml-auto font-bold items-center">
       
       </div>
       <div className="flex flex-wrap justify-evenly md:px-4 px-0 py-4 md:mx-auto w-[100%] mb-12 z-30 rounded-full">

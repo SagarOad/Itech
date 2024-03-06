@@ -52,9 +52,9 @@ const SoftwareDevelopment = () => {
       <Navbar />
       <div className=" container mx-auto">
         <div className=" pt-48 pb-32">
-          <div className="px-8 md:px-24 flex flex-wrap flex-col md:flex-row items-center">
+          <div className="md:px-8 flex flex-wrap flex-col md:flex-row items-center">
             <div className="flex flex-col w-full xl:w-[60%] justify-center lg:items-start ">
-              <h1 className="main-banner-heading mix-blend-multiply mb-2 text-3xl tracking-normal md:text-[4rem] text-[#f58020] font-[poppins] opacity-95 font-bold leading-[70px] md:text-left">
+              <h1 className="main-banner-heading mix-blend-multiply mb-2 text-5xl tracking-normal md:text-[4rem] text-[#f58020] font-[poppins] opacity-95 font-bold md:leading-[70px] md:text-left">
                 <span className="flex justify-center absolute left-44 top-[-33px]">
                   {/* <img src={shineSvt} className="w-[80px]" /> */}
                 </span>
@@ -67,7 +67,7 @@ const SoftwareDevelopment = () => {
                 </span>
               </h1>
 
-              <p className="leading-normal text-[#212121] opacity-75 pr-20 font-sans font-thin text-[20px] md:text-[20px] mb-8 md:text-left">
+              <p className="leading-normal text-[#212121] opacity-75 md:pr-20 font-sans font-thin text-[20px] md:text-[20px] mb-16 md:mb-8 md:text-left">
                 Video editing service can help individuals and bussinesses
                 create professional looking videos that engage and inform their
                 audience. A good video editing service will work closely with
@@ -83,8 +83,8 @@ const SoftwareDevelopment = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto pt-16">
-        <h1 className="services2-heading mix-blend-multiply mb-2 text-3xl tracking-normal md:text-[3.5rem] text-[#f58020] font-[poppins] opacity-95 font-bold leading-[70px] md:text-center">
+      <div className="container mx-auto md:pt-16">
+        <h1 className="services2-heading mix-blend-multiply mb-2 text-3xl tracking-normal md:text-[3.5rem] text-[#f58020] font-[poppins] opacity-95 font-bold leading-[70px] text-center">
           Video Editing Portfolio
         </h1>
         <div className=" my-6 flex flex-col justify-center  p-4  font-bold items-center">
@@ -139,7 +139,7 @@ const SoftwareDevelopment = () => {
         </div>
       </div>
 
-      <div className="  px-8 xl:px-24 py-24 line-banner">
+      <div className="  px-8 xl:px-24 md:py-24 py-16 line-banner">
         <div id="services" className="container relative pb-20 px-8 mx-auto">
           <div className="md:w-[80%] mb-12 p-5">
             <h1 className="services2-heading mb-2 text-3xl tracking-normal md:text-[3.5rem] text-white font-[poppins] opacity-95 font-bold leading-[70px]">
@@ -261,8 +261,8 @@ const SoftwareDevelopment = () => {
         </div>
       </div>
 
-      <div className="px-8 container mx-auto py-24">
-        <h1 className="services2-heading mix-blend-multiply mb-2 text-3xl tracking-normal md:text-[3.5rem] text-[#f58020] font-[poppins] opacity-95 font-bold leading-[70px] md:text-center">
+      <div className="px-8 md:container mx-auto py-24">
+        <h1 className="services2-heading mix-blend-multiply mb-2 text-3xl tracking-normal md:text-[3.5rem] text-[#f58020] font-[poppins] opacity-95 font-bold leading-[70px] text-center">
           How Does this Work?
         </h1>
         <div className="grid grid-cols-12">

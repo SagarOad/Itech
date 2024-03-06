@@ -56,9 +56,9 @@ const NftDesigning = () => {
         <Navbar />
         <div className=" container mx-auto">
           <div className=" pt-48 pb-32">
-            <div className="px-8 md:px-24  flex flex-wrap flex-col md:flex-row items-center">
+            <div className="md:px-8 flex flex-wrap flex-col md:flex-row items-center">
               <div className="flex flex-col w-full xl:w-[60%] justify-center lg:items-start ">
-                <h1 className=" mix-blend-multiply mb-2 text-3xl tracking-normal md:text-[4rem] text-[#f58020] font-[poppins] opacity-95 font-bold leading-[70px] md:text-left">
+                <h1 className=" main-banner-heading mix-blend-multiply mb-2 text-5xl tracking-normal md:text-[4rem] text-[#f58020] font-[poppins] opacity-95 font-bold md:leading-[70px] md:text-left">
                   <span className="flex justify-center absolute left-44 top-[-33px]">
                     {/* <img src={shineSvt} className="w-[80px]" /> */}
                   </span>{" "}
@@ -69,7 +69,7 @@ const NftDesigning = () => {
                   ></span>
                 </h1>
 
-                <p className="leading-normal text-[#212121] opacity-75 pr-20 font-sans font-thin text-[20px] md:text-[20px] mb-8 md:text-left">
+                <p className="leading-normal text-[#212121] opacity-75 md:pr-20 font-sans font-thin text-[20px] md:text-[20px] mb-16 md:mb-8 md:text-left">
                   Nft development services can be beneficial for bussinessess of
                   all sizes.Nft development services help bussinesses and
                   inividuals create, launch and manage their own nft projects.
@@ -90,7 +90,7 @@ const NftDesigning = () => {
           </div>
         </div>
         <div className=" container mx-auto">
-          <h1 className="services2-heading mix-blend-multiply mb-2 text-3xl tracking-normal md:text-[3.5rem] text-[#f58020] font-[poppins] opacity-95 font-bold leading-[70px] md:text-center">
+          <h1 className="services2-heading mix-blend-multiply mb-2 text-3xl tracking-normal md:text-[3.5rem] text-[#f58020] font-[poppins] opacity-95 font-bold leading-[70px] text-center">
             NFT{" "}
             <span className="span-color bg-clip-text text-[#e4563aef]">
               Portfolio
@@ -128,7 +128,7 @@ const NftDesigning = () => {
           </div> */}
 
               <div className="grid grid-cols-12">
-                <div className="xl:col-span-3 flex flex-col justify-center items-center col-span-12 p-4 bg-white rounded-[26px] mr-6">
+                <div className="xl:col-span-3 flex flex-col justify-center items-center col-span-12 p-4 bg-white rounded-[26px] md:mr-6">
                   <img src={lineArt} className="rounded-[26px] w-[300px]" />
 
                   <p className="leading-normal mt-3 text-[#212121] opacity-75 font-sans font-medium md:text-[22px] mb-8 text-center">
@@ -162,7 +162,7 @@ const NftDesigning = () => {
           </div>
         </div>
 
-        <div className="grid container mx-auto bg-white py-8 grid-cols-12 px-8 md:px-24">
+        <div className="grid md:container mx-auto bg-white py-8 grid-cols-12 px-8 md:px-24">
           <div className="col-span-12 lg:col-span-4 flex justify-center items-start p-6">
             <div>
               <h1 className=" relative mt-4 mb-6 md:text-[24px] text-[#212121] font-[nexa] font-bold leading-tight  md:text-left">

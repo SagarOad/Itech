@@ -58,9 +58,9 @@ const Animation = () => {
         <Navbar />
         <div className="container mx-auto">
           <div className="  pt-48 pb-32">
-            <div className="px-8 flex flex-wrap flex-col md:flex-row items-center">
+            <div className="md:px-8 flex flex-wrap flex-col md:flex-row items-center">
               <div className="flex flex-col w-full xl:w-[60%] justify-center lg:items-start ">
-                <h1 className="main-banner-heading mix-blend-multiply mb-2 text-3xl tracking-normal md:text-[4rem] text-[#f58020] font-[poppins] opacity-95 font-bold leading-[70px] md:text-left">
+                <h1 className="main-banner-heading mix-blend-multiply mb-2 text-5xl tracking-normal md:text-[4rem] text-[#f58020] font-[poppins] opacity-95 font-bold md:leading-[70px] md:text-left">
                   <span className="flex justify-center absolute left-44 top-[-33px]">
                     {/* <img src={shineSvt} className="w-[80px]" /> */}
                   </span>{" "}
@@ -73,7 +73,7 @@ const Animation = () => {
                   </span>
                 </h1>
 
-                <p className="leading-normal text-[#212121] opacity-75 pr-20 font-sans font-thin text-[20px] md:text-[20px] mb-8 md:text-left">
+                <p className="leading-normal text-[#212121] opacity-75 md:pr-20 font-sans font-thin text-[20px] md:text-[20px] mb-16 md:mb-8 md:text-left">
                   Our 2D and 3D animation services are the process of creating
                   moving images through the manipulation of digital images. our
                   2D animation uses a flat plane, while 3D animation uses a
@@ -96,8 +96,8 @@ const Animation = () => {
           </div>
         </div>
         <div>
-          <div className="container mx-auto pt-16">
-            <h1 className="services2-heading mix-blend-multiply mb-2 text-3xl tracking-normal md:text-[3.5rem] text-[#f58020] font-[poppins] opacity-95 font-bold leading-[70px] md:text-center">
+          <div className="container mx-auto md:pt-16">
+            <h1 className="services2-heading mix-blend-multiply mb-2 text-3xl tracking-normal md:text-[3.5rem] text-[#f58020] font-[poppins] opacity-95 font-bold leading-[70px] text-center">
               Our Video Animation Portfolio
             </h1>
             <div className=" my-6 flex flex-col justify-center  p-4  font-bold items-center">
@@ -122,7 +122,7 @@ const Animation = () => {
         </div>
 
         <div className=" rounded-[50px] line-banner">
-          <div id="services" className="container mx-auto px-8 py-16 my-24 ">
+          <div id="services" className="container mx-auto md:px-8 py-16 my-24 ">
             <div className="md:w-[80%] mb-12 md:mb-12 p-5">
               <h1 className="services2-heading mb-2 text-3xl tracking-normal md:text-[3.5rem] text-white font-[poppins] opacity-95 font-bold leading-[70px]">
                 <span className="flex justify-center absolute left-56 top-[70px]"></span>
@@ -243,7 +243,7 @@ const Animation = () => {
           </div>
         </div>
 
-        <div className="grid container mx-auto bg-white py-8 grid-cols-12 px-8">
+        <div className="grid container mx-auto bg-white py-8 grid-cols-12 md:px-8">
           <div className="col-span-12 lg:col-span-4 flex justify-center items-start p-6">
             <div>
               <h1 className="main-banner-faq relative mt-4 mb-6 md:text-[24px] text-[#212121] font-[poppins] font-medium  md:text-left">

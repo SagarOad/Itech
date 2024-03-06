@@ -23,7 +23,7 @@ const SkillTabs = () => {
   const [openModal, setOpenModal] = useState();
   return (
     <div className=" relative">
-      <div className=" container w-[60%] mx-auto" id="our-work">
+      <div className=" md:container md:w-[60%] mx-auto" id="our-work">
         <img src={cube4} className=" absolute w-[250px] top-0 right-0" />
         <div className="flex flex-wrap border-2 border-b-[#e4563aef] justify-between p-4 md:mx-auto w-[100%] z-30">
           <button

@@ -10,9 +10,9 @@ const ProjectTabs = () => {
   const [activeTab, setActiveTab] = useState(0);
   const [openModal, setOpenModal] = useState();
   return (
-    <div className=" py-20" id="our-work">
-      <div className=" px-8 container w-[60%] mx-auto">
-        <h1 className="services2-heading mix-blend-multiply mb-2 text-3xl tracking-normal md:text-[3.5rem] text-[#f58020] font-[poppins] opacity-95 font-bold leading-[70px] md:text-center">
+    <div className=" py-6" id="our-work">
+      <div className=" px-8 md:px-0 md:container md:w-[60%] mx-auto">
+        <h1 className="services2-heading mix-blend-multiply mb-2 text-3xl tracking-normal md:text-[3.5rem] text-[#f58020] font-[poppins] opacity-95 font-bold leading-[70px] text-center md:text-center">
           Portfolio
         </h1>
         <div className=" flex flex-col justify-center  p-4 ml-auto font-bold items-center">

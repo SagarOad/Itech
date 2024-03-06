@@ -63,11 +63,11 @@ const MobileApp = () => {
         className="  bg-[#F8F6F2] leading-normal tracking-normal text-indigo-400 bg-cover bg-fixed"
       >
         <Navbar />
-        <div className="container mx-auto">
+        <div className="md:container mx-auto">
           <div className=" pt-48 pb-32">
             <div className="px-8  relative flex flex-wrap flex-col md:flex-row justify-between items-center">
-              <div className="flex flex-col w-full xl:w-[60%] pr-36 justify-center lg:items-start ">
-                <h1 className="main-banner-heading mix-blend-multiply mb-2 text-3xl tracking-normal md:text-[4rem] text-[#f58020] font-[poppins] opacity-95 font-bold leading-[70px] md:text-left">
+              <div className="flex flex-col w-full xl:w-[60%] md:pr-36 justify-center lg:items-start ">
+                <h1 className="main-banner-heading mix-blend-multiply mb-2 text-5xl tracking-normal md:text-[4rem] text-[#f58020] font-[poppins] opacity-95 font-bold md:leading-[70px] md:text-left">
                   <span className="flex justify-center absolute left-44 top-[-33px]">
                     {/* <img src={shineSvt} className="w-[80px]" /> */}
                   </span>{" "}
@@ -81,7 +81,7 @@ const MobileApp = () => {
                   </span>
                 </h1>
 
-                <p className="leading-normal text-[#212121] opacity-75 pr-20 font-sans font-thin text-[20px] md:text-[20px] mb-8 md:text-left">
+                <p className="leading-normal text-[#212121] opacity-75 md:pr-20 font-sans font-thin text-[20px] md:text-[20px] mb-16 md:mb-8 md:text-left">
                   Our Mobile app Development services are creation of custom
                   apps for iOS and Andriod plateform. Mobile App development
                   services will meet the needs of bussinesses sizes, from
@@ -101,8 +101,8 @@ const MobileApp = () => {
           </div>
         </div>
 
-        <div className="container mx-auto pt-16">
-          <h1 className="services2-heading mix-blend-multiply mb-2 text-3xl tracking-normal md:text-[3.5rem] text-[#f58020] font-[poppins] opacity-95 font-bold leading-[70px] md:text-center">
+        <div className="container mx-auto md:pt-16">
+          <h1 className="services2-heading mix-blend-multiply mb-2 text-3xl tracking-normal md:text-[3.5rem] text-[#f58020] font-[poppins] opacity-95 font-bold leading-[70px] text-center">
             App Portfolio
           </h1>
           <div className=" my-6 flex flex-col justify-center  p-4  font-bold items-center">
@@ -121,9 +121,9 @@ const MobileApp = () => {
           <Mobile />
         </div>
 
-        <div className=" px-8 xl:px-24 py-24 line-banner">
+        <div className=" px-8 xl:px-24 md:py-24 py-16 line-banner">
           <div className=" container mx-auto">
-            <h1 className="services2-heading mb-2 text-3xl tracking-normal md:text-[3.5rem] text-white font-[poppins] opacity-95 font-bold leading-[70px] md:text-center">
+            <h1 className="services2-heading mb-2 text-3xl tracking-normal md:text-[3.5rem] text-white font-[poppins] opacity-95 font-bold leading-[70px] text-center">
               App Effective{" "}
               <span className=" bg-white text-[#e4563aef] ml-4">Features</span>
             </h1>
@@ -247,7 +247,7 @@ const MobileApp = () => {
           </div>
         </div>
         <div className="px-8 md:px-24 bg-white pb-24 pt-24">
-          <h1 className="services2-heading mix-blend-multiply mb-2 text-3xl tracking-normal md:text-[3.5rem] text-[#f58020] font-[poppins] opacity-95 font-bold leading-[70px] md:text-center">
+          <h1 className="services2-heading mix-blend-multiply mb-2 text-3xl tracking-normal md:text-[3.5rem] text-[#f58020] font-[poppins] opacity-95 font-bold leading-[70px] text-center">
             The Process
           </h1>
           <p className="leading-normal text-[#212121] opacity-75 font-sans font-thin text-[20px] md:text-[20px] mb-8 md:text-center">

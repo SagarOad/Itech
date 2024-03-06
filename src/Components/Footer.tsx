@@ -7,7 +7,7 @@ import { FiPhone } from "react-icons/fi";
 const Footer = () => {
   return (
     <div className="bg-white ">
-      <div className=" container mx-auto">
+      <div className=" md:container mx-auto">
         <hr className="w-full bg-[#212121] opacity-30 h-[1px]" />
 
         <div className="py-24 px-6 md:px-24 mx-auto">
