@@ -1,5 +1,5 @@
 import React from "react";
-import ui from "../assets/serviceIcons/ui1.png";
+import app from "../assets/app-development.PNG";
 import { Link } from "react-router-dom";
 
 const MobileDevTemplate = () => {
@@ -30,7 +30,7 @@ const MobileDevTemplate = () => {
         </div>
       </div>
       <div className=" w-full relative z-[10] py-2 ml-auto xl:w-[40%] overflow-hidden">
-        <img src={ui} />
+        <img src={app} />
       </div>
     </div>
   );

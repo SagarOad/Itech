@@ -40,7 +40,6 @@ const MainBanner = () => {
 
   return (
     <div id="main-banner" className="">
-
       <div class="area">
         <ul class="circles">
           <li></li>
@@ -55,7 +54,7 @@ const MainBanner = () => {
           <li></li>
         </ul>
       </div>
-      <div className=" container mx-auto pb-14 md:pb-0"> 
+      <div className=" container mx-auto pb-14 md:pb-0">
         <div className="flex flex-wrap flex-col md:flex-row items-center">
           <div className="flex flex-col w-full md:pb-32 pt-40 xl:w-[50%] justify-center lg:items-start ">
             <h1 className="main-banner-heading relative mt-4 md:mb-4 text-[4rem] sm:text-5xl md:text-[6rem] text-white font-[BirdLove] font-medium md:text-left">
@@ -71,18 +70,15 @@ const MainBanner = () => {
             </h1>
 
             <div className="flex md:justify-end ">
-            <button
-              onClick={() => {
-                setOpenModal(true);
-              }}
-              className="bg-[#e4563aef] mx-4 font-[poppins] mr-0 md:mr-[22px] z-20 text-white md:py-3 py-2 md:px-5 px-3 font-medium text-[18px] md:text-[19px]"
-            >Get Started</button>
-              <a
-                href="#our-work"
-                className=""
+              <button
+                onClick={() => {
+                  setOpenModal(true);
+                }}
+                className="bg-[#e4563aef] mx-4 font-[poppins] mr-0 md:mr-[22px] z-20 text-white md:py-3 py-2 md:px-5 px-3 font-medium text-[18px] md:text-[19px]"
               >
-                
-              </a>
+                Get Started
+              </button>
+              <a href="#our-work" className=""></a>
               {/* <NavLink to="/about">
                 <button className="bg-[#212121] mr-0 md:mr-[22px] z-20 text-white md:py-3 py-2 md:px-5 px-3 rounded-full font-sans font-medium text-[18px] ml-3 md:text-[19px]">
                   About Us

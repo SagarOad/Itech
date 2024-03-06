@@ -1,5 +1,5 @@
 import React from "react";
-import web from "../assets/serviceIcons/web1.png";
+import web from "../assets/web-development.PNG"
 import { Link } from "react-router-dom";
 
 const LogoDesignTemplate = () => {

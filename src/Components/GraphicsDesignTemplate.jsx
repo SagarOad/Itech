@@ -1,5 +1,5 @@
 import React from "react";
-import web from "../assets/serviceIcons/web1.png";
+import graphic from "../assets/graphic-design.PNG";
 import { Link } from "react-router-dom";
 
 const GraphicsDesignTemplate = () => {
@@ -31,7 +31,7 @@ const GraphicsDesignTemplate = () => {
         </div>
       </div>
       <div className="w-full relative z-[10] py-2 ml-auto xl:w-[40%] overflow-hidden">
-        <img src={web} />
+        <img src={graphic} />
       </div>
     </div>
   );
