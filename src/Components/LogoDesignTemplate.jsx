@@ -1,6 +1,6 @@
 import React from "react";
 import web from "../assets/serviceIcons/web1.png";
-
+import { Link } from "react-router-dom";
 
 const LogoDesignTemplate = () => {
   return (
@@ -18,13 +18,16 @@ const LogoDesignTemplate = () => {
           Benefit from our expertise regardless of your company's size.
         </p>
 
-        <div>
-          <button className=" text-[#f58020] py-2 px-6 font-[poppins] font-bold my-8 border-2 border-[#f58020]">
+        <div className=" mt-5">
+          <Link
+            to="/servicepage"
+            className=" text-[#f58020] py-2 px-6 font-[poppins] font-bold my-8 border-2 border-[#f58020]"
+          >
             VIEW DETAILS
-          </button>
+          </Link>
         </div>
       </div>
-      <div className=" w-full relative z-[99] py-2 ml-auto xl:w-[40%] overflow-hidden">
+      <div className="w-full relative z-[10] py-2 ml-auto xl:w-[40%] overflow-hidden">
         <img src={web} />
       </div>
     </div>

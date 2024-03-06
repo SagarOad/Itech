@@ -21,7 +21,7 @@ const OurServices = () => {
           Here’s what we do
         </h1>
         <div className=" md:w-[50%] mx-auto">
-          <p className="leading-normal text-[#212121] opacity-75 font-sans font-medium text-[18px] md:text-[18px] mb-8 md:text-center">
+          <p className="leading-normal text-[#212121] opacity-75 font-[poppins] font-medium text-[18px] md:text-[18px] mb-8 md:text-center">
             Need recognition? We have been providing a wide range of business
             logo design, branding, development and digital marketing services to
             our customers worldwide. Rest assured, our comprehensive service

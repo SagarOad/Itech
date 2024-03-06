@@ -8,7 +8,7 @@ import cube5 from "../assets/Untitled-5-02.png";
 
 const Process = () => {
   return (
-    <div className=" relative">
+    <div className=" relative pb-12">
       <img src={cube5} className=" absolute top-28 left-[-20px]" />
       <div className=" px-8 container w-[60%] mx-auto">
         <h1 className="text-[48px] md:text-[3.5rem] text-[#f58020] text-center font-[poppins] opacity-95 font-bold leading-tight">

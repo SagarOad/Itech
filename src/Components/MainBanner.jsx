@@ -102,7 +102,7 @@ const MainBanner = () => {
             </div>
           </div>
 
-          <div className=" w-full relative z-[99] py-2 ml-auto xl:w-[50%] overflow-hidden">
+          <div className=" w-full relative z-[50] py-2 ml-auto xl:w-[50%] overflow-hidden">
             <video
               className="main-video h-[450px] w-[550px] object-cover ml-auto  "
               loop

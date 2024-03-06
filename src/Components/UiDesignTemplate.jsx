@@ -1,5 +1,6 @@
 import React from "react";
 import ui from "../assets/serviceIcons/ui1.png";
+import { Link } from "react-router-dom";
 
 const UiDesignTemplate = () => {
   return (
@@ -18,13 +19,16 @@ const UiDesignTemplate = () => {
           regardless of your company's size.
         </p>
 
-        <div>
-          <button className=" text-[#f58020] py-2 px-6 font-[poppins] font-bold my-8 border-2 border-[#f58020]">
+        <div className=" mt-5">
+        <Link
+            to="/digitalmarketing"
+            className=" text-[#f58020] py-2 px-6 font-[poppins] font-bold my-8 border-2 border-[#f58020]"
+          >
             VIEW DETAILS
-          </button>
+          </Link>
         </div>
       </div>
-      <div className=" w-full relative z-[99] py-2 ml-auto xl:w-[40%] overflow-hidden">
+      <div className=" w-full relative z-[50] py-2 ml-auto xl:w-[40%] overflow-hidden">
         <img src={ui} />
       </div>
     </div>

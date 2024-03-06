@@ -1895,15 +1895,15 @@ nav {
 } */
 
 nav.black {
-  background: rgba(0, 0, 0, 0.641);
+  background: rgb(255, 255, 255);
   height: 80px;
   padding: 10px 128px;
   z-index: 888;
-  color: white;
+  color: rgb(211, 181, 181);
 }
 
 .white {
-  color: white !important;
+  color: rgb(0, 0, 0) !important;
 }
 
 nav .logo {
@@ -1915,9 +1915,7 @@ nav .logo {
   margin-top: 15px;
 }
 .white-logo {
-  height: 32px;
-  margin-top: 12px;
-  transition: 0.5s;
+display: none !important;
 }
 
 nav > ul {
@@ -1954,7 +1952,7 @@ nav > ul > li > a {
 }
 
 nav.black > ul > li > a {
-  color: #fff;
+  color: #000000;
   line-height: 60px;
 }
 

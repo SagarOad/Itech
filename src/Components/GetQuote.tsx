@@ -62,7 +62,7 @@ const GetQuote = ({ closeModal, Title }: Props) => {
 
   return (
     <div>
-      <section className="modalBackground z-30 backdrop-blur-xl bg-white/30  mx-auto md:px-6 mb-32 text-center">
+      <section className="modalBackground z-[99] backdrop-blur-xl bg-white/30  mx-auto md:px-6 mb-32 text-center">
         {div1Shown ? (
           <div className="div1">
             <div className="modalContainer w-[700px] container mx-auto xl:px-32">

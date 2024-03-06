@@ -36,10 +36,9 @@ const Navbar = () => {
           </div>
         </div>
         <nav className="nav z-[999]">
-          <div className="logo">
+          <div className="logo h-[100%]">
             <Link to="/">
-              <img className="black-logo" src={logo} alt="logo" />
-              <img className="white-logo" src={whiteLogo} alt="logo" />
+              <img id="white-logo" className="h-[42px] transition-[0.5s]" src={logo} alt="logo" />
             </Link>
           </div>
           <ul>
@@ -58,7 +57,7 @@ const Navbar = () => {
                     data-dropdown-toggle="dropdownHover"
                     data-dropdown-trigger="hover"
                     id="dropdownHoverButton"
-                    className="text-[#212121] menu-hover hover:text-[#f58020] font-[poppins] font-[500] text-[18px] md:text-[18px]"
+                    className="text-[#212121] menu-hover hover:text-[#f58020] font-[poppins] font-[400] text-[18px] md:text-[18px]"
                     aria-current="page"
                   >
                     Services
