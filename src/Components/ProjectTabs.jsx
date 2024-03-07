@@ -16,10 +16,10 @@ const ProjectTabs = () => {
           Portfolio
         </h1>
         <div className=" flex flex-col justify-center  p-4 ml-auto font-bold items-center">
-          <h1 className="leading-normal text-[#4e4e4e] font-[poppins] text-center font-[300] text-[18px] md:text-[30px]">
+          {/* <h1 className="leading-normal text-[#4e4e4e] font-[poppins] text-center font-[300] text-[18px] md:text-[30px]">
             It's not our complete portfolio Explore further tap the button Below
             for More of Our Work
-          </h1>
+          </h1> */}
           {/* <button
           onClick={() => {
             setOpenModal(true);

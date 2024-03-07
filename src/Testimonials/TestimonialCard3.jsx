@@ -4,7 +4,7 @@ import img from "../assets/clients/151165c.jpg";
 const TestimonialCard3 = () => {
   return (
     <div>
-      <div class="container mx-auto py-28 flex flex-col items-center justify-center gap-8">
+      <div class="container mx-auto py-14 flex flex-col items-center justify-center gap-8">
         <h1 class="text-3xl text-[#828282] font-[300] font-[poppins] leading-relaxed text-center w-4/5">
           "Fameitech was amazing! I had a ton of changes and edits for a video
           that was very important to me, and Hakeem did a great job addressing

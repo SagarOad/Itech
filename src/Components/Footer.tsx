@@ -9,7 +9,8 @@ const Footer = () => {
   return (
     <>
       <ContactPage />
-      <div className="bg-white">
+      <div></div>
+      <div className="bg-[#F8F6F2]">
         <div className=" md:container mx-auto">
           <hr className="w-full bg-[#212121] opacity-30 h-[1px]" />
           <hr className="w-full bg-black opacity-40 h-[3px]" />
@@ -46,7 +47,7 @@ const Footer = () => {
       <div className="bg-[#e4563aef]">
         <div className=" container mx-auto flex justify-center mt-10 items-center">
           <div className="py-8 mx-auto tracking-[1px] ml-3 text-[14px] text-white font-medium font-[poppins]">
-            © 2023 Fame Itech, All Rights Reserved
+            © 2024 Fame Itech, All Rights Reserved
           </div>
 
           <div className="flex my-8 md:my-0 justify-center md:justify-end item-center">

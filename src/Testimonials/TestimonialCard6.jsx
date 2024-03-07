@@ -4,7 +4,7 @@ import img from "../assets/clients/images.jpeg";
 const TestimonialCard2 = () => {
   return (
     <div>
-      <div class="container mx-auto py-28 flex flex-col items-center justify-center gap-8">
+      <div class="container mx-auto py-14 flex flex-col items-center justify-center gap-8">
         <h1 class="text-3xl text-[#828282] font-[300] font-[poppins] leading-relaxed text-center w-4/5">
           "I really had a great experience working with this team. They
           understand my vision for my first book and they were great with all my

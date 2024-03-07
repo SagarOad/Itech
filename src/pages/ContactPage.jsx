@@ -4,8 +4,8 @@ import { FaRegAddressBook } from "react-icons/fa";
 
 const ContactPage = () => {
   return (
-    <div id="contact-us" class="container my-12 mx-auto px-2 md:px-4">
-      <section class="mb-24">
+    <div id="contact-us" class="bg-[#F8F6F2] my-12 px-2 md:px-4">
+      <section class="container mx-auto mb-24">
         <div class="flex justify-center">
           <div class="text-center md:max-w-xl lg:max-w-3xl">
             <h2 class="services2-heading mix-blend-multiply mb-12 text-3xl tracking-normal md:text-[3.5rem] text-[#f58020] font-[poppins] opacity-95 font-bold leading-[70px] text-center md:text-center">

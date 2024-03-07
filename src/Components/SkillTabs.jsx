@@ -46,7 +46,7 @@ const SkillTabs = () => {
             }}
           >
             <CiPen className="mx-auto text-[42px] mb-4" />
-            UI / UX
+            Social Media
           </button>
           <button
             className={`${activeTab === 2 ? "text-[#e4563aef]" : ""} 

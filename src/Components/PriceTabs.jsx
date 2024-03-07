@@ -20,7 +20,7 @@ const PriceTabs = () => {
       <div className="  flex-col hidden md:flex justify-center  p-4 ml-auto font-bold items-center">
       
       </div>
-      <div className="flex flex-wrap justify-evenly md:px-4 px-0 py-4 md:mx-auto w-[100%] mb-12 z-30 rounded-full">
+      <div className="flex flex-wrap justify-evenly md:px-4 px-0 py-4 md:mx-auto w-[100%] z-30 rounded-full">
         <button
           className={`${
             activeTab === 0

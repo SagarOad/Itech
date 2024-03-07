@@ -4,7 +4,7 @@ import img from "../assets/clients/1700354090446.jpeg";
 const TestimonialCard1 = () => {
   return (
     <div>
-      <div class="container mx-auto py-28 flex flex-col items-center justify-center gap-8">
+      <div class="container mx-auto py-14 flex flex-col items-center justify-center gap-8">
         <h1 class="text-2xl md:text-3xl text-[#828282] font-[300] font-[poppins] leading-relaxed text-center w-4/5">
           "I am the post-production supervisor for Zach King. We worked with
           Remy's company on VFX for a recent brand deal. Fame Itech did a
