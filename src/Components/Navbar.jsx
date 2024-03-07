@@ -162,12 +162,13 @@ const Navbar = () => {
                       </ul>
 
                       <div class="border-t py-8 px-6 md:px-12 md:py-16 lg:border-t-0 lg:border-l lg:py-0 lg:pr-0 lg:pl-6">
-                        <a
-                          href="#"
-                          class="block px-6 py-2 bg-[#e4563aef] font-[poppins] text-center text-white"
+                        <HashLink
+                          className="block px-6 py-2 bg-[#e4563aef] font-[poppins] text-center text-white"
+                          smooth
+                          to={"#contact-us"}
                         >
                           Get started
-                        </a>
+                        </HashLink>
                       </div>
                     </div>
                   </div>

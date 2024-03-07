@@ -84,13 +84,13 @@ const ecommerce = () => {
           </div>
         </div>
         <div className="pt-16 bg-white">
-          <h1 className="services2-heading mix-blend-multiply mb-2 text-3xl tracking-normal md:text-[3.5rem] text-[#f58020] font-[poppins] opacity-95 font-bold leading-[70px] text-center">
+          <h1 className="services2-heading mix-blend-multiply mb-12 text-3xl tracking-normal md:text-[3.5rem] text-[#f58020] font-[poppins] opacity-95 font-bold leading-[70px] text-center">
             Our Web Development{" "}
             <span className="span-color bg-clip-text text-[#e4563aef]">
               Portfolio
             </span>
           </h1>
-          <div className=" my-6 flex flex-col justify-center  p-4  font-bold items-center">
+          {/* <div className=" my-6 flex flex-col justify-center  p-4  font-bold items-center">
             <h1 className="leading-normal text-[#4e4e4e] font-[poppins] text-center font-[300] text-[18px] md:text-[30px]">
               It's not our complete portfolio Explore further tap the button
               Below for More of Our Work
@@ -104,7 +104,7 @@ const ecommerce = () => {
             >
               Contact Us
             </button>
-          </div>
+          </div> */}
           <Web />
         </div>
 

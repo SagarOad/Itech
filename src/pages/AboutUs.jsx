@@ -21,7 +21,7 @@ const AboutUs = () => {
           <div className="md:pt-[167px] pt-6 flex flex-col md:flex-row items-center">
             <div>
               <h1 className="main-banner-heading mix-blend-multiply mb-2 text-3xl tracking-normal md:text-[4rem] text-[#f58020] font-[poppins] opacity-95 font-bold leading-[70px] md:text-left">
-                A Vision for Digital
+                A Vision for Digital{" "}
                 <span className="span-color bg-clip-text text-[#e4563aef]">
                   Excellence
                 </span>

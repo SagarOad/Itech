@@ -78,12 +78,7 @@ const MainBanner = () => {
               >
                 Get Started
               </button>
-              <a href="#our-work" className=""></a>
-              {/* <NavLink to="/about">
-                <button className="bg-[#212121] mr-0 md:mr-[22px] z-20 text-white md:py-3 py-2 md:px-5 px-3 rounded-full font-sans font-medium text-[18px] ml-3 md:text-[19px]">
-                  About Us
-                </button>
-              </NavLink> */}
+              
             </div>
           </div>
 

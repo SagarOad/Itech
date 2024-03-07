@@ -10,7 +10,7 @@ const ContactSection = () => {
   return (
     <div className="relative">
       <div id="contact" className="bg-white ml-auto w-[90%] h-[38vh]">
-        <div className="bg-[#e4563aef] absolute left-0 bottom-0 w-[100%] py-20 h-auto px-8 md:px-24 mr-auto">
+        <div className="branding-banner absolute left-0 bottom-0 w-[100%] py-20 h-auto px-8 md:px-24 mr-auto">
           <div className="anime-bg md:flex relative items-center">
             <img
               src={arrow}

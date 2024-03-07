@@ -2232,3 +2232,27 @@ ul.font-bold.list-container li {
   color: white;
   background-image: linear-gradient(120deg, #f58020 0%, #e4563aef 100%);
 }
+
+
+
+input#exampleInput90 {
+  border: 1px solid #b7b7b7;
+}
+
+textarea.px-2.py-2.border.rounded-\[5px\].w-full.outline-none {
+  border: 1px solid #b7b7b7 !important;
+}
+
+.mb-12.w-full.shrink-0.grow-0.basis-auto.md\:w-6\/12.md\:px-3.lg\:px-6 {
+  width: 100%;
+}
+
+/* 
+button.slick-arrow.slick-prev {
+  background-color: #f58020;
+  border-radius: 50PX;
+}
+
+button.slick-arrow.slick-next {
+  background-color: blue;
+} */

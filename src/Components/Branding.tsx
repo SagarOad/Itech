@@ -16,45 +16,47 @@ const Branding = () => {
           <div className="xl:col-span-8 md:ml-12 py-24 col-span-12">
             <div className="">
               <div className="grid grid-cols-12 mb-8 gap-4 md:gap-6 2xl:mt-7.5 2xl:gap-7.5">
-                <div className=" xl:col-span-3 col-span-12 ">
-                </div>
-                <div className="opacity-100 p-12 flex justify-center items-center group px-5 py-7 pb-5 shadow-md z-50 bg-white hover:shadow-lg hover:mt-[-12px] transition-all  hover: sm:px-7.5 xl:col-span-3 col-span-12 ">
+                <div className=" xl:col-span-2 col-span-12 "></div>
+                <div className="opacity-100 p-12 flex justify-center items-center group px-5 py-7 pb-5 shadow-md z-50 bg-white hover:shadow-lg hover:mt-[-12px] transition-all  hover: sm:px-7.5 xl:col-span-4 col-span-12 ">
                   <div className="flex">
                     <div className="">
-                      <h1 className="text-[#f58020] text-center service-card- text-[30px] font-[nexa] mb-4">
-                        90%
+                      <h1 className="text-[#f58020] text-center service-card- text-[20px] font-[nexa] mb-4">
+                        Web Design & Development
                       </h1>
-                      <p className="text-[#212121] font-[Poppins]">
-                        Increase in ROI
+                      <p className="text-[#212121] text-[14px] font-[Poppins]">
+                        Crafting stunning websites that captivate and engage
+                        your audience.
                       </p>
                     </div>
                   </div>
                 </div>
 
-                <div className="opacity-100 p-12 group justify-center items-center px-5 py-7 pb-5 shadow-md z-50 bg-white hover:shadow-lg hover:mt-[-12px] transition-all  hover: sm:px-7.5 xl:col-span-3 col-span-12 ">
+                <div className="opacity-100 p-12 group justify-center items-center px-5 py-7 pb-5 shadow-md z-50 bg-white hover:shadow-lg hover:mt-[-12px] transition-all  hover: sm:px-7.5 xl:col-span-4 col-span-12 ">
                   <div className="flex justify-center items-center">
                     <div className="">
-                      <h1 className="text-[#f58020] text-center service-card- text-[30px] font-[nexa] mb-4">
-                        1570+
+                      <h1 className="text-[#f58020] text-center service-card- text-[20px] font-[nexa] mb-4">
+                        Digital Marketing Solutions
                       </h1>
-                      <p className="text-[#212121]  font-[Poppins]">
-                        Project Done{" "}
+                      <p className="text-[#212121] text-[14px] font-[Poppins]">
+                        Drive growth and reach your target market with our
+                        strategic digital marketing services.{" "}
                       </p>
                     </div>
                   </div>
                 </div>
-                <div className=" xl:col-span-3 col-span-12 "></div>
+                <div className=" xl:col-span-2 col-span-12 "></div>
               </div>
 
               <div className="grid grid-cols-12 gap-4 md:gap-6 2xl:mt-7.5 2xl:gap-7.5">
                 <div className="opacity-100 p-12 group justify-center items-center px-5 py-7 pb-5 shadow-md z-50 bg-white hover:shadow-lg hover:mt-[-12px] transition-all   hover: sm:px-7.5 xl:col-span-4 col-span-12 ">
                   <div className="flex justify-center items-center">
                     <div className="">
-                      <h1 className="text-[#f58020] text-center service-card- text-[30px] font-[nexa] mb-4">
-                        NFT Design
+                      <h1 className="text-[#f58020] text-center service-card- text-[20px] font-[nexa] mb-4">
+                        Brand Identity & Logo Design
                       </h1>
-                      <p className="text-[#212121]  font-[Poppins]">
-                        Daily Website Vists{" "}
+                      <p className="text-[#212121] text-[14px] font-[Poppins]">
+                        Elevate your brand with a unique identity and logo that
+                        resonates with your audience.{" "}
                       </p>
                     </div>
                   </div>
@@ -62,11 +64,12 @@ const Branding = () => {
                 <div className="opacity-100 p-12 group justify-center items-center px-5 py-7 pb-5 shadow-md z-50 bg-white hover:shadow-lg hover:mt-[-12px] transition-all   hover: sm:px-7.5 xl:col-span-4 col-span-12 ">
                   <div className="flex justify-center items-center">
                     <div className="">
-                      <h1 className="text-[#f58020] text-center service-card- text-[30px] font-[nexa] mb-4">
-                        NFT Design
+                      <h1 className="text-[#f58020] text-center service-card- text-[20px] font-[nexa] mb-4">
+                        SEO & Content Strategy
                       </h1>
-                      <p className="text-[#212121]  font-[Poppins]">
-                        Satisfied Customers{" "}
+                      <p className="text-[#212121] text-[14px] font-[Poppins]">
+                        Optimize your online presence and rank higher on search
+                        engines with our tailored SEO and content strategies.{" "}
                       </p>
                     </div>
                   </div>
@@ -74,11 +77,12 @@ const Branding = () => {
                 <div className="opacity-100 p-12 group justify-center items-center px-5 py-7 pb-5 shadow-md z-50 bg-white hover:shadow-lg hover:mt-[-12px] transition-all   hover: sm:px-7.5 xl:col-span-4 col-span-12 ">
                   <div className="flex justify-center items-center">
                     <div className="">
-                      <h1 className="text-[#f58020] text-center service-card- text-[30px] font-[nexa] mb-4">
-                        NFT Design
+                      <h1 className="text-[#f58020] text-center service-card- text-[20px] font-[nexa] mb-4">
+                        Social Media Management
                       </h1>
-                      <p className="text-[#212121]  font-[Poppins]">
-                        Satisfied Customers{" "}
+                      <p className="text-[#212121] text-[14px] font-[Poppins]">
+                        Build meaningful connections and enhance brand
+                        visibility through expert social media management.{" "}
                       </p>
                     </div>
                   </div>

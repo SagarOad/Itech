@@ -16,6 +16,8 @@ import SkillTabs from '../Components/SkillTabs';
 import Process from '../Components/Process';
 import LineBanner from '../Components/LineBanner';
 import PriceTabs from '../Components/PriceTabs';
+import ContactPage from './ContactPage';
+import Testimonials from '../Components/Testimonials';
 const Home = () => {
   useEffect(() => {
     // Set meta tags dynamically
@@ -53,19 +55,21 @@ document.head.appendChild(colonicalTag)
     <div className="bg-[#F8F6F2] leading-normal tracking-normal text-indigo-400 bg-cover bg-fixed">
       <Navbar />
       <MainBanner />
-      <OurServices2 />
-      {/* <Features /> */}
       <OurServices />
       <SkillTabs />
+      <OurServices2 />
+      {/* <Features /> */}
       <LineBanner />
       <ProjectTabs />
       <Branding />
       <Process />
       {/* <Anime /> */}
       <ContactSection />
+      <Testimonials />
       <PriceTabs />
       {/* <Map /> */}
       {/* <TeamSlider /> */}
+      {/* <ContactPage /> */}
       <Footer />
     </div>
 </>
