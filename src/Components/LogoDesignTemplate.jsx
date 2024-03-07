@@ -20,7 +20,7 @@ const LogoDesignTemplate = () => {
 
         <div className=" mt-5">
           <Link
-            to="/servicepage"
+            to="/ecommerce"
             className=" text-[#f58020] py-2 px-6 font-[poppins] font-bold my-8 border-2 border-[#f58020]"
           >
             VIEW DETAILS
