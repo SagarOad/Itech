@@ -1,7 +1,5 @@
 import ServiceImg from "../assets/zach.png";
 
-import cube3 from "../assets/Untitled-5-03.png";
-
 const OurServices2 = () => {
   return (
     <div className="w-full relative branding-banner py-8 px-8 md:px-44 mx-auto">
