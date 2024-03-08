@@ -1,7 +1,8 @@
 import React from "react";
 import ui from "../assets/serviceIcons/ui1.png";
-import social from "../assets/social-media (1).PNG";
+import social from "../assets/serviceIcons/socialmedia.jpg";
 import { Link } from "react-router-dom";
+
 
 const UiDesignTemplate = () => {
   return (

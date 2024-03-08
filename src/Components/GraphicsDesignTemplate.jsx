@@ -1,5 +1,5 @@
 import React from "react";
-import graphic from "../assets/graphic-design.PNG";
+import graphic from "../assets/serviceIcons/graphicdesign.jpg";
 import { Link } from "react-router-dom";
 
 const GraphicsDesignTemplate = () => {

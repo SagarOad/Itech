@@ -1,5 +1,5 @@
 import React from "react";
-import app from "../assets/app-development.PNG";
+import app from "../assets/serviceIcons/appdevelopment.jpg";
 import { Link } from "react-router-dom";
 
 const MobileDevTemplate = () => {

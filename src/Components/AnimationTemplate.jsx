@@ -1,6 +1,6 @@
 import React from "react";
 import ui from "../assets/serviceIcons/ui1.png";
-import animation from "../assets/2d-3d-animation.PNG";
+import animation from "../assets/serviceIcons/animation.jpg";
 import { Link } from "react-router-dom";
 
 const AnimationTemplate = () => {

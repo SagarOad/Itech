@@ -1,8 +1,51 @@
 import React from "react";
 import { IoIosContacts } from "react-icons/io";
 import { FaRegAddressBook } from "react-icons/fa";
+import { useState } from "react";
 
 const ContactPage = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    contact: "",
+    message: "",
+  });
+
+  const [isSubmitted, setIsSubmitted] = useState(false);
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+        const response = await fetch('YOUR_API_ENDPOINT', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(formData)
+        });
+
+        if (response.ok) {
+            setIsSubmitted(true); // Set form submission flag to true
+            setFormData({ // Clear form data
+                name: '',
+                email: '',
+                contact: '',
+                message: ''
+            });
+        } else {
+            console.error('Failed to send message');
+        }
+    } catch (error) {
+        console.error('Error:', error);
+    }
+};
   return (
     <div id="contact-us" class="bg-[#F8F6F2] my-12 px-2 md:px-4">
       <section class="container mx-auto mb-24">
@@ -15,73 +58,84 @@ const ContactPage = () => {
         </div>
 
         <div class="flex flex-wrap">
-          <form class="mb-12 mt-0 w-full border-2 py-8 shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-6/12 lg:px-6">
-            <div class="mb-3 w-full">
+          <form
+            className="mb-12 mt-0 w-full border-2 py-8 shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-6/12 lg:px-6"
+            onSubmit={handleSubmit}
+          >
+            <div className="mb-3 w-full">
               <label
-                class="block font-medium text-[18px] font-[poppins] mb-[12px] text-black"
-                htmlFor="exampleInput90"
+                htmlFor="exampleInputName"
+                className="block font-medium text-[18px] font-[poppins] mb-[12px] text-black"
               >
                 Name
               </label>
               <input
                 type="text"
-                class="px-2 py-3 border-4	 border-black w-full outline-none rounded-md"
-                id="exampleInput90"
-                placeholder=""
+                className="px-2 py-3 border-4 border-black w-full outline-none rounded-md"
+                id="exampleInputName"
+                name="name"
+                value={formData.name}
+                onChange={handleChange}
               />
             </div>
 
-            <div class="mb-3 w-full">
+            <div className="mb-3 w-full">
               <label
-                class="block font-medium text-[18px] font-[poppins] mb-[12px] text-black"
-                htmlFor="exampleInput90"
+                htmlFor="exampleInputEmail"
+                className="block font-medium text-[18px] font-[poppins] mb-[12px] text-black"
               >
                 Email
               </label>
               <input
                 type="email"
-                class="px-2 py-3 border w-full outline-none rounded-md"
-                id="exampleInput90"
-                placeholder=""
+                className="px-2 py-3 border w-full outline-none rounded-md"
+                id="exampleInputEmail"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
               />
             </div>
-            <div class="mb-3 w-full">
+
+            <div className="mb-3 w-full">
               <label
-                class="block font-medium text-[18px] font-[poppins] mb-[12px] text-black"
-                htmlFor="exampleInput90"
+                htmlFor="exampleInputContact"
+                className="block font-medium text-[18px] font-[poppins] mb-[12px] text-black"
               >
                 Contact
               </label>
               <input
-                type="contact"
-                class="px-2 py-3 border w-full outline-none rounded-md"
-                id="exampleInput90"
-                placeholder=""
+                type="text"
+                className="px-2 py-3 border w-full outline-none rounded-md"
+                id="exampleInputContact"
+                name="contact"
+                value={formData.contact}
+                onChange={handleChange}
               />
             </div>
 
-            <div class="mb-3 w-full">
+            <div className="mb-3 w-full">
               <label
-                class="block font-medium text-[18px] font-[poppins] mb-[12px] text-black"
-                htmlFor="exampleInput90"
+                htmlFor="exampleInputMessage"
+                className="block font-medium text-[18px] font-[poppins] mb-[12px] text-black"
               >
                 Message
               </label>
               <textarea
-                class="px-2 py-2 border rounded-[5px] w-full outline-none"
-                name=""
-                id=""
+                className="px-2 py-2 border rounded-[5px] w-full outline-none"
+                id="exampleInputMessage"
+                name="message"
+                value={formData.message}
+                onChange={handleChange}
               ></textarea>
             </div>
 
             <button
-              type="button"
-              class="mb-6 inline-block w-full text-[18px] rounded font-[poppins] bg-[#e4563aef] px-6 py-2.5 font-medium uppercase leading-normal text-white hover:shadow-md hover:bg-[#e4563a]"
+              type="submit"
+              className="mb-6 inline-block w-full text-[18px] rounded font-[poppins] bg-[#e4563aef] px-6 py-2.5 font-medium uppercase leading-normal text-white hover:shadow-md hover:bg-[#e4563a]"
             >
               Send
             </button>
           </form>
-
           <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12">
             <div class="">
               <div class="mb-6 w-full shrink-0 grow-0 basis-auto md:w-12/12 md:px-3 lg:px-8">
@@ -95,7 +149,7 @@ const ContactPage = () => {
                     <p class="mb-2 font-medium font-[poppins] text-[22px]">
                       Customer Support
                     </p>
-                    <p class="text-neutral-500 ">info@fameitech.new</p>
+                    <p class="text-neutral-500 ">info@fameitech.net</p>
                     <p class="text-neutral-500 ">(302) 501-7152</p>
                     <p class="text-neutral-500 ">
                       8 The Green #14675; Dover, DE 19901

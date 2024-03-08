@@ -1,5 +1,5 @@
 import React from "react";
-import video from "../assets/video-edditing.PNG";
+import video from "../assets/serviceIcons/videoediting.jpg";
 import { Link } from "react-router-dom";
 
 const VideoEditingTemplate = () => {

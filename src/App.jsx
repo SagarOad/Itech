@@ -12,6 +12,7 @@ import NftDesigning from "./pages/NftDesigning";
 import ScrollToTop from "./ScrollToTop";
 import About from "./pages/About";
 import { Helmet } from 'react-helmet';
+import LogoDesign from "./pages/LogoDesignPage";
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
     { path: '/about', element: <About /> },
     { path: '/servicepage', element: <MobileApp /> },
     { path: '/ecommerce', element: <Ecommerce /> },
+    { path: '/logodesigning', element: <LogoDesign /> },
     { path: '/digitalmarketing', element: <DigitalMarketing /> },
     { path: '/animation', element: <Animation /> },
     { path: '/graphicsdesign', element: <GraphicsDesign /> },

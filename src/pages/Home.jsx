@@ -59,13 +59,13 @@ document.head.appendChild(colonicalTag)
       <SkillTabs />
       <OurServices2 />
       {/* <Features /> */}
-      <LineBanner />
       <ProjectTabs />
       <Branding />
       <Process />
       {/* <Anime /> */}
       <ContactSection />
       <Testimonials />
+      <LineBanner />
       <PriceTabs />
       {/* <Map /> */}
       {/* <TeamSlider /> */}

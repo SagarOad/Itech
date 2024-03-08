@@ -104,6 +104,11 @@ const Navbar = () => {
                                   Web Development
                                 </a>
                               </Link>
+                              <Link to="/logodesigning">
+                                <a className="my-2 block border-b border-gray-100 font-[500] text-gray-500 px-4 py-2 hover:bg-[#f58020] text-left hover:text-white md:mx-2">
+                                  Logo Designing
+                                </a>
+                              </Link>
                               <Link to="/digitalmarketing">
                                 <a className="my-2 block border-b border-gray-100 font-[500] text-gray-500 px-4 py-2 hover:bg-[#f58020] text-left hover:text-white md:mx-2">
                                   Social Media Marketing
