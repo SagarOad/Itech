@@ -1,7 +1,7 @@
 import React from "react";
-import Lottie from "lottie-react";
-import anime from "../Lottie-data/aboutusAnim.json";
-import newAnime from "../Lottie-data/animation_lkqlk372.json";
+// import Lottie from "lottie-react";
+// import anime from "../Lottie-data/aboutusAnim.json";
+// import newAnime from "../Lottie-data/animation_lkqlk372.json";
 import { useState, useEffect } from "react";
 import GetQuote from "../Components/GetQuote";
 import { MdOutlineSentimentSatisfiedAlt } from "react-icons/md";
@@ -9,6 +9,8 @@ import { AiOutlineBulb } from "react-icons/ai";
 import { GiElectric } from "react-icons/gi";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
+import aboutimg from "../assets/vectors/aboutus.jpg"
+import aboutimg2 from "../assets/vectors/colleagues-giving-fist-bump (1).jpg"
 
 const AboutUs = () => {
   const [openModal, setOpenModal] = useState(false);
@@ -48,10 +50,11 @@ const AboutUs = () => {
             </div>
 
             <div>
-              <Lottie
+              {/* <Lottie
                 className="w-auto md:w-[660px] mt-[0px]"
                 animationData={anime}
-              ></Lottie>
+              ></Lottie> */}
+              <img src={aboutimg} />
             </div>
           </div>
 
@@ -122,10 +125,11 @@ const AboutUs = () => {
 
           <div className="md:pt-[120px] mb-16 flex flex-col md:flex-row items-center">
             <div>
-              <Lottie
+              <img src={aboutimg2} />
+              {/* <Lottie
                 className="w-auto md:w-[660px] mt-[0px]"
                 animationData={newAnime}
-              ></Lottie>
+              ></Lottie> */}
             </div>
 
             <div className="md:ml-20">

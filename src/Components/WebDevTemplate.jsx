@@ -1,5 +1,5 @@
 import React from "react";
-import web from "../assets/serviceIcons/webdev.jpg";
+import web from "../assets/serviceIcons/logodesign.jpg";
 import { Link } from "react-router-dom";
 
 const WebDevTemplate = () => {

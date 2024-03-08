@@ -4,7 +4,8 @@ import Navbar from "../Components/Navbar";
 import { useState, useEffect } from "react";
 import GetQuote from "../Components/GetQuote";
 
-import web1 from "../assets/vectors/webDev.png";
+// import web1 from "../assets/vectors/webDev.png";
+import web1 from "../assets/vectors/logodesign.webp";
 import lineArt from "../assets/vectors/logo-art.jpg";
 import Web from "../Components/PortfolioGallery";
 import LogoDesign from "../Components/LogoDesign";
@@ -79,7 +80,7 @@ const LogoDesignPage = () => {
                 </p>
               </div>
               <div className="w-full xl:w-[40%] relative service-banner-shape1 rounded-2xl ">
-                <img src={web1} className="w-[600px] absolute mx-auto" />
+                <img src={web1} className="w-[500px] absolute mx-auto" />
               </div>
             </div>
           </div>
