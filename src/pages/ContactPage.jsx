@@ -102,6 +102,7 @@ const ContactPage = () => {
               </label>
               <input
                 type="text"
+                required
                 className="px-2 py-3 w-full outline-none rounded-md"
                 id="exampleInputName"
                 name="name"
@@ -119,6 +120,7 @@ const ContactPage = () => {
               </label>
               <input
                 type="email"
+                required
                 className="px-2 py-3 border w-full outline-none rounded-md"
                 id="exampleInputEmail"
                 name="email"
@@ -136,6 +138,7 @@ const ContactPage = () => {
               </label>
               <input
                 type="text"
+                required
                 className="px-2 py-3 border w-full outline-none rounded-md"
                 id="exampleInputContact"
                 name="contact"
@@ -155,6 +158,7 @@ const ContactPage = () => {
                 className="px-2 py-2 border rounded-[5px] w-full outline-none"
                 id="exampleInputMessage"
                 name="message"
+                required
                 value={formData.message}
                 onChange={handleChange}
               ></textarea>
