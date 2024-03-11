@@ -27,7 +27,7 @@ const SkillTabs = () => {
   return (
     <div className=" relative">
       <div className=" md:container md:w-[70%] md:h-[815px] mx-auto" id="our-work">
-        <img src={cube4} className=" absolute w-[250px] top-0 right-0" />
+        <img src={cube4} className=" absolute w-[200px] top-0 right-0" />
         <div className="flex flex-wrap border-2 border-b-[#e4563aef] justify-between p-4 md:mx-auto w-[100%] z-30">
           <button
             className={`${activeTab === 0 ? "text-[#e4563aef]" : ""} 
@@ -146,7 +146,7 @@ const SkillTabs = () => {
       </div>
       <img
         src={cube5}
-        className=" absolute rotate-180 bg-[#f58020a6] w-[250px] bottom-[-26px]"
+        className=" absolute rotate-180 bg-[#f58020a6] w-[190px] bottom-[-26px]"
       />
     </div>
   );

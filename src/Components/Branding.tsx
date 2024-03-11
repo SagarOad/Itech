@@ -3,7 +3,7 @@ const Branding = () => {
     <div className="branding-banner py-6 my-24">
       <div className=" container mx-auto">
         <div className="grid py-2 grid-cols-12">
-          <div className="xl:col-span-4 mb-12 xl:mb-0 flex flex-col justify-center items-center col-span-12 p-4 mr-12">
+          <div className="xl:col-span-4 mb-12 xl:mb-0 flex flex-col justify-center items-center col-span-12 p-4">
             <h2 className="relative mt-4 mb-5 text-[3rem] md:text-[4rem] text-white font-[poppins] font-bold leading-tight">
               Introduce Your Brand To Digital
               <span className=" bg-white text-[#e4563aef] ml-4">Media!</span>
@@ -13,7 +13,7 @@ const Branding = () => {
               marketspace with our creative digital services.
             </p> */}
           </div>
-          <div className="xl:col-span-8 md:ml-12 py-24 col-span-12">
+          <div className="xl:col-span-8 lg:ml-12 py-14 col-span-12">
             <div className="">
               <div className="grid grid-cols-12 mb-8 gap-4 md:gap-6 2xl:mt-7.5 2xl:gap-7.5">
                 <div className=" xl:col-span-2 col-span-12 "></div>

@@ -32,8 +32,8 @@ const Process = () => {
       </div>
 
       <div className="container mx-auto relative">
-      <img src={arrow1} className="bg-black absolute w-[230px] top-6 left-[400px]" />
-      <img src={arrow2} className="bg-black absolute w-[230px] top-12 right-[400px]" />
+      {/* <img src={arrow1} className="bg-black absolute w-[230px] top-6 left-[400px]" /> */}
+      {/* <img src={arrow2} className="bg-black absolute w-[230px] top-12 right-[400px]" /> */}
 
         <div className="grid grid-cols-12">
           <div className="col-span-12 md:col-span-4 flex p-12 flex-col justify-center items-center">
