@@ -12,6 +12,18 @@ import anime from "../Lottie-data/marketing-anime.json";
 import { Player } from "@lottiefiles/react-lottie-player";
 import Img1 from "../assets/vectors/6 (1).png";
 import { Helmet } from "react-helmet";
+import icon1 from "../assets/icons/carbon_cloud-service-management.SVG";
+import icon2 from "../assets/icons/dollar.SVG";
+import icon3 from "../assets/icons/ep_data-analysis.SVG";
+import icon4 from "../assets/icons/foundation_social-myspace.SVG";
+import icon5 from "../assets/icons/carbon_id-management.SVG";
+import icon6 from "../assets/icons/sg2.SVG";
+
+import desc1 from "../assets/desktop.PNG"
+import desc2 from "../assets/desktop.PNG"
+import desc3 from "../assets/desktop.PNG"
+import desc4 from "../assets/desktop.PNG"
+import SocialMediaGallery from "./SocialMediaGallery";
 
 const ecommerce = () => {
   const [openModal, setOpenModal] = useState();
@@ -100,16 +112,21 @@ const ecommerce = () => {
         </div>
         <div></div>
 
+        <div>
+        <SocialMediaGallery />
+        </div>
+
         <div className=" px-8 xl:px-24 md:py-24 py-16 line-banner">
-          <div id="services" className="md:container relative pb-20 md:px-8 mx-auto">
+          <div
+            id="services"
+            className="md:container relative pb-20 md:px-8 mx-auto"
+          >
             <div className="md:w-[80%] mb-12 p-5">
               <h1 className="services2-heading mb-2 text-3xl tracking-normal md:text-[3.5rem] text-white font-[poppins] opacity-95 font-bold leading-[70px]">
                 <span className="flex justify-center absolute left-56 top-[70px]"></span>
                 What Elevates Effective <br />
                 Social Media{" "}
-                <span className=" bg-white text-[#e4563aef]">
-                  Marketing
-                </span>
+                <span className=" bg-white text-[#e4563aef]">Marketing</span>
               </h1>
             </div>
 
@@ -126,89 +143,97 @@ const ecommerce = () => {
               <div className="xl:col-span-9 col-span-12">
                 <div className="grid grid-cols-12 gap-4  md:gap-6 2xl:mt-7.5 2xl:gap-7.5">
                   <div className="opacity-100 group p-12 px-5 py-7 pb-5 shadow-md z-50 bg-white hover:shadow-lg transition-all   sm:px-7.5 xl:col-span-4 col-span-12 rounded-[26px]">
-                    <div className="flex">
+                    <div className="flex justify-center items-center">
                       <div className="">
-                        <h1 className="text-[#f58020]  service-card- text-[24px] font-[poppins] mb-4">
+                        <img src={icon4} className=" mb-4 mx-auto" />
+
+                        <h1 className="text-[#f58020] font-[600] service-card- text-[22px] font-[poppins] mb-4">
                           Strategic Approach
                         </h1>
-                        <p className="leading-normal mt-3 text-black font-[poppins] font-[300] text-[18px] md:text-[18px]">
+                        {/* <p className="leading-normal mt-3 text-black font-[poppins] font-[300] text-[18px] md:text-[18px]">
                           A great social media marketing strategy is
                           well-planned and aligns with business objectives,
                           ensuring every effort serves a purpose.
-                        </p>
+                        </p> */}
                       </div>
                     </div>
                   </div>
 
                   <div className="opacity-100 p-12 group px-5 py-7 pb-5 shadow-md z-50 bg-white  hover:shadow-lg  transition-all  hover: sm:px-7.5 xl:col-span-4 col-span-12 rounded-[26px]">
-                    <div className="flex">
+                    <div className="flex justify-center items-center">
                       <div className="">
-                        <h1 className="text-[#f58020]  service-card- text-[24px] font-[poppins] mb-4 ">
-                          Data-Driven Decision-Making
+                        <img src={icon3} className=" mb-8 mx-auto" />
+                        <h1 className="text-[#f58020] font-[600] service-card- text-[22px] font-[poppins] mb-4 ">
+                          Data analysis & ROI modeling
                         </h1>
-                        <p className="leading-normal mt-3 text-black font-[poppins] font-[300] text-[18px] md:text-[18px]">
+                        {/* <p className="leading-normal mt-3 text-black font-[poppins] font-[300] text-[18px] md:text-[18px]">
                           Leveraging data and analytics allows for informed
                           decisions, optimizing campaigns for better results.
-                        </p>
+                        </p> */}
                       </div>
                     </div>
                   </div>
 
                   <div className="opacity-100 p-12 group px-5 py-7 pb-5 shadow-md z-50 bg-white hover:shadow-lg  transition-all  hover: sm:px-7.5 xl:col-span-4 col-span-12 rounded-[20px]">
-                    <div className="flex">
+                    <div className="flex justify-center items-center">
                       <div className="">
-                        <h1 className="text-[#f58020]  service-card- text-[24px] font-[poppins] mb-4">
+                        <img src={icon1} className=" mb-6 mx-auto" />
+                        <h1 className="text-[#f58020] font-[600] service-card- text-[22px] font-[poppins] mb-4">
                           Personalized Content
                         </h1>
-                        <p className="leading-normal mt-3 text-black font-[poppins] font-[300] text-[18px] md:text-[18px]">
+                        {/* <p className="leading-normal mt-3 text-black font-[poppins] font-[300] text-[18px] md:text-[18px]">
                           Tailored content resonates with the audience,
                           fostering meaningful connections and driving
                           engagement.
-                        </p>
+                        </p> */}
                       </div>
                     </div>
                   </div>
 
                   <div className="opacity-100 p-12 group px-5 py-7 pb-5 shadow-md z-50 bg-white hover:shadow-lg  transition-all  hover: sm:px-7.5 xl:col-span-4 col-span-12 rounded-[26px]">
-                    <div className="flex">
+                    <div className="flex justify-center items-center">
                       <div className="">
-                        <h1 className="text-[#f58020]  service-card- text-[24px] font-[poppins] mb-4">
+                        <img src={icon2} className=" mb-4 mx-auto" />
+                        <h1 className="text-[#f58020] font-[600] service-card- text-[22px] font-[poppins] mb-4">
                           Multi-Channel Campaigns
                         </h1>
-                        <p className="leading-normal mt-3 text-black font-[poppins] font-[300] text-[18px] md:text-[18px]">
+                        {/* <p className="leading-normal mt-3 text-black font-[poppins] font-[300] text-[18px] md:text-[18px]">
                           An effective social media marketing approach utilizes
                           various channels to reach a broader audience and
                           reinforce brand messaging.
-                        </p>
+                        </p> */}
                       </div>
                     </div>
                   </div>
 
                   <div className="opacity-100 p-12 group px-5 py-7 pb-5 shadow-md z-50 bg-white hover:shadow-lg  transition-all  hover: sm:px-7.5 xl:col-span-4 col-span-12 rounded-[26px]">
-                    <div className="flex">
+                    <div className="flex justify-center items-center">
                       <div className="">
-                        <h1 className="text-[#f58020]  service-card- text-[24px] font-[poppins] mb-4">
+                        <img src={icon6} className=" mb-4 mx-auto" />
+
+                        <h1 className="text-[#f58020] font-[600] service-card- text-[22px] font-[poppins] mb-4">
                           Audience Targeting
                         </h1>
-                        <p className="leading-normal mt-3 text-black font-[poppins] font-[300] text-[18px] md:text-[18px]">
+                        {/* <p className="leading-normal mt-3 text-black font-[poppins] font-[300] text-[18px] md:text-[18px]">
                           Precise targeting ensures marketing efforts reach the
                           right people, increasing the likelihood of conversion.
-                        </p>
+                        </p> */}
                       </div>
                     </div>
                   </div>
 
                   <div className="opacity-100 p-12 group px-5 py-7 pb-5 shadow-md z-50 bg-white hover:shadow-lg  transition-all  hover: sm:px-7.5 xl:col-span-4 col-span-12 rounded-[26px]">
-                    <div className="flex">
+                    <div className="flex justify-center items-center">
                       <div className="">
-                        <h1 className="text-[#f58020]  service-card- text-[24px] font-[poppins] mb-4">
+                        <img src={icon5} className=" mb-8 mx-auto" />
+                        <h1 className="text-[#f58020] font-[600] service-card- text-[22px] font-[poppins] mb-4">
                           Continuous Analysis
                         </h1>
-                        <p className="leading-normal mt-3 text-black font-[poppins] font-[300] text-[18px] md:text-[18px]">
+                        {/* <p className="leading-normal mt-3 text-black font-[poppins] font-[300] text-[18px] md:text-[18px]">
                           Regular assessment and improvement based on
                           performance data ensure ongoing success and
                           adaptability to trends and audience preferences.
-                        </p>
+                        </p> */}
                       </div>
                     </div>
                   </div>
@@ -221,7 +246,7 @@ const ecommerce = () => {
         <div className="md:container mx-auto grid bg-white py-8 grid-cols-12 px-8 md:px-24">
           <div className="col-span-12 md:col-span-4 flex justify-center items-start p-6">
             <div>
-              <h1 className="main-banner-faq relative mt-4 mb-6 md:text-[24px] text-[#212121] font-[poppins] font-medium  md:text-left">
+              <h1 className="main-banner-faq relative mt-4 mb-6 md:text-[22px] text-[#212121] font-[poppins] font-medium  md:text-left">
                 How do you measure success for social media marketing?
               </h1>
               <p className="leading-normal text-[#212121] opacity-75 font-[poppins] font-medium text-base md:text-[18px] mb-8 text-justify">
@@ -238,7 +263,7 @@ const ecommerce = () => {
           </div>
           <div className="col-span-12 md:col-span-4 flex justify-center items-start p-6">
             <div>
-              <h1 className="main-banner-faq relative mt-4 mb-6 md:text-[24px] text-[#212121] font-[poppins] font-medium  md:text-left">
+              <h1 className="main-banner-faq relative mt-4 mb-6 md:text-[22px] text-[#212121] font-[poppins] font-medium  md:text-left">
                 How much money does social media marketing cost?
               </h1>
               <p className="leading-normal text-[#212121] opacity-75 font-[poppins] font-medium text-base md:text-[18px] mb-8 text-justify">
@@ -253,7 +278,7 @@ const ecommerce = () => {
           </div>
           <div className="col-span-12 md:col-span-4 flex justify-center items-start p-6">
             <div>
-              <h1 className="main-banner-faq relative mt-4 mb-6 md:text-[24px] text-[#212121] font-[poppins] font-medium  md:text-left">
+              <h1 className="main-banner-faq relative mt-4 mb-6 md:text-[22px] text-[#212121] font-[poppins] font-medium  md:text-left">
                 Results & Timelines in Social Media Marketing.
               </h1>
               <p className="leading-normal text-[#212121] opacity-75 font-[poppins] font-medium text-base md:text-[18px] mb-8 text-justify">
